@@ -1,0 +1,3306 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.6.265/W32 for ARM                  11/Sep/2023  11:19:51
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Exe\STM32G474VE_OC_RTOS.out
+#    Map file     =
+#        C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\List\STM32G474VE_OC_RTOS.map
+#    Command line =
+#        -f C:\Users\kh.lin\AppData\Local\Temp\EW194D.tmp
+#        ("C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\app_fatfs.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\app_freertos.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\AutoMode.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\BreathTask.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\bsp_w25q64.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\bus_voltage_sensor.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\ccsbcs.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\circle_limitation.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\cmsis_os.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\color_led.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\CPAP.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\croutine.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\debug_io.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\digital_output.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\diskio.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\DynamicTemplate.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\event_groups.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\EventDetection.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\ff.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\ff_gen_drv.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\FlowLimitation.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\FlowProcess.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\frame_communication_protocol.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\heap_4.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\key_fifo.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\LeakManagement.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\led.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\list.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\main.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\mc_api.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\mc_config.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\mc_interface.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\mc_math.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\mc_parameters.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\mc_tasks.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\motor_control.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\motor_control_protocol.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\motor_power_measurement.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\motorcontrol.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\ntc_temperature_sensor.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\open_loop.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\pid_regulator.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\port.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\portasm.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\pqd_motor_power_measurement.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\PressureControl.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\PressureTask.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\pwm_common.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\pwm_curr_fdbk.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\queue.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\r3_2_g4xx_pwm_curr_fdbk.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\r_divider_bus_voltage_sensor.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\ramp_ext_mngr.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\regular_adc.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\regular_conversion_manager.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\revup_ctrl.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\rtc.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\sensor_flow.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\sensor_if.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\sensor_pressure.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\sort.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\speed_pos_fdbk.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\speed_torq_ctrl.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\startup_stm32g474xx.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\state_machine.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_adc.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_adc_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_comp.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_cordic.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_cortex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_dma.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_dma_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_exti.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_flash.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_flash_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_flash_ramfunc.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_gpio.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_i2c.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_i2c_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_msp.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_opamp.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_opamp_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_pcd.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_pcd_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_pwr.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_pwr_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_qspi.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_rcc.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_rcc_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_rtc.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_rtc_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_tim.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_tim_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_timebase_tim.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_uart.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_hal_uart_ex.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_it.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_ll_adc.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_ll_dma.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_ll_exti.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_ll_gpio.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_ll_ucpd.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_ll_usb.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_ll_utils.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stm32g4xx_mc_it.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\sto_pll_speed_pos_fdbk.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\stream_buffer.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\Swing.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\syscall.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\system_stm32g4xx.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\tasks.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\timer.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\timeRoutine.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\timers.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\ui_irq_handler.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\ui_task.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\usart_frame_communication_protocol.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\usb_device.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\usbd_cdc.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\usbd_cdc_if.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\usbd_conf.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\usbd_core.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\usbd_ctlreq.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\usbd_desc.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\usbd_ioreq.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\user_diskio.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\user_interface.o"
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\virtual_speed_sensor.o"
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP
+#        Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Exe\STM32G474VE_OC_RTOS.out" --map
+#        "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup
+#        V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM\STM32G474VE_OC_RTOS\List\STM32G474VE_OC_RTOS.map"
+#        --config "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code
+#        (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x
+#        (AutoOff)\EWARM/stm32g474xx_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --enable_stack_usage --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Ls014]: [stack usage analysis] at least one function does not have
+          stack usage information. Example: "vPortStartFirstTask". A complete
+          list of such functions is in the map file.
+Warning[Ls016]: [stack usage analysis] the program contains at least one
+          indirect call. Example: from "PWMC_SwitchOffPWM". A complete list of
+          such functions is in the map file.
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 4K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address      Size  Object
+  -------            ----         -------      ----  ------
+"A0":                                         0x1d8
+  .intvec            ro code   0x800'0000     0x1d8  startup_stm32g474xx.o [1]
+                             - 0x800'01d8     0x1d8
+
+"P1":                                      0x1'5110
+  .text              ro code   0x800'01d8     0xf04  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'10dc     0x74c  stm32g4xx_hal_msp.o [1]
+  .text              ro code   0x800'1828       0xc  stm32g4xx_hal.o [1]
+  .text              ro code   0x800'1834       0x2  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'1836       0x2  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'1838      0x7c  stm32g4xx_it.o [1]
+  .text              ro code   0x800'18b4       0x2  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'18b6       0x2  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'18b8       0x2  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'18ba       0x2  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'18bc       0x2  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'18be      0x56  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'1914      0x80  stm32g4xx_hal_dma.o [1]
+  .text              ro code   0x800'1994       0x2  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'1996       0x2  stm32g4xx_hal_i2c.o [1]
+  .text              ro code   0x800'1998      0xe8  stm32g4xx_hal_cortex.o [1]
+  .text              ro code   0x800'1a80      0x14  memset.o [4]
+  .text              ro code   0x800'1a94     0x2dc  stm32g4xx_hal_gpio.o [1]
+  .text              ro code   0x800'1d70     0xc54  stm32g4xx_hal_pcd.o [1]
+  .text              ro code   0x800'29c4     0xd20  stm32g4xx_hal_tim.o [1]
+  .text              ro code   0x800'36e4      0xd4  timer.o [1]
+  .text              ro code   0x800'37b8     0xda8  main.o [1]
+  .text              ro code   0x800'4560     0x716  stm32g4xx_hal_qspi.o [1]
+  .text              ro code   0x800'4c76      0x3a  zero_init3.o [4]
+  .text              ro code   0x800'4cb0     0x170  sensor_if.o [1]
+  .text              ro code   0x800'4e20      0x66  ABImemset.o [4]
+  .text              ro code   0x800'4e86      0x26  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'4eac     0x2ca  usbd_conf.o [1]
+  .text              ro code   0x800'5176       0xa  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'5180     0xc30  stm32g4xx_ll_usb.o [1]
+  .text              ro code   0x800'5db0      0x86  ABImemcpy.o [4]
+  .text              ro code   0x800'5e36       0xa  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'5e40      0x6a  stm32g4xx_hal_pcd_ex.o [1]
+  .text              ro code   0x800'5eaa       0x2  stm32g4xx_hal_tim.o [1]
+  .text              ro code   0x800'5eac       0x2  stm32g4xx_hal_tim.o [1]
+  .text              ro code   0x800'5eae       0x2  stm32g4xx_hal_tim.o [1]
+  .text              ro code   0x800'5eb0       0x2  stm32g4xx_hal_tim.o [1]
+  .text              ro code   0x800'5eb2       0x2  stm32g4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'5eb4       0x2  stm32g4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'5eb6       0x2  stm32g4xx_hal_tim.o [1]
+  .text              ro code   0x800'5eb8       0x2  stm32g4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'5eba       0x2  stm32g4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'5ebc       0x2  stm32g4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'5ebe       0x2  stm32g4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'5ec0       0x2  stm32g4xx_hal_tim_ex.o [1]
+  .rodata            const     0x800'5ec2       0x6  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'5ec8      0x1e  stm32g4xx_hal.o [1]
+  .rodata            const     0x800'5ee6       0x2  mc_tasks.o [1]
+  .text              ro code   0x800'5ee8      0x36  stm32g4xx_hal_cordic.o [1]
+  .text              ro code   0x800'5f20      0x30  motorcontrol.o [1]
+  .text              ro code   0x800'5f50      0x54  usb_device.o [1]
+  .text              ro code   0x800'5fa4      0x24  app_fatfs.o [1]
+  .text              ro code   0x800'5fc8     0x25c  key_fifo.o [1]
+  .text              ro code   0x800'6224      0x9c  led.o [1]
+  .text              ro code   0x800'62c0     0x140  color_led.o [1]
+  .text              ro code   0x800'6400      0x50  cmsis_os.o [1]
+  .text              ro code   0x800'6450       0x6  ABImemclr4.o [4]
+  .text              ro code   0x800'6458      0xd0  stm32g4xx_hal_pwr_ex.o [1]
+  .text              ro code   0x800'6528      0x10  stm32g4xx_hal_pwr.o [1]
+  .text              ro code   0x800'6538     0x710  stm32g4xx_hal_rcc.o [1]
+  .text              ro code   0x800'6c48     0x2c0  stm32g4xx_hal_rcc_ex.o [1]
+  .text              ro code   0x800'6f08     0x6b4  stm32g4xx_hal_adc.o [1]
+  .text              ro code   0x800'75bc     0x640  stm32g4xx_hal_adc_ex.o [1]
+  .text              ro code   0x800'7bfc     0x244  stm32g4xx_hal_comp.o [1]
+  .text              ro code   0x800'7e40      0xbc  stm32g4xx_hal_i2c_ex.o [1]
+  .text              ro code   0x800'7efc      0xf8  stm32g4xx_hal_opamp.o [1]
+  .text              ro code   0x800'7ff4     0x3dc  stm32g4xx_hal_rtc.o [1]
+  .text              ro code   0x800'83d0      0x1c  stm32g4xx_hal_rtc_ex.o [1]
+  .text              ro code   0x800'83ec      0x88  rtc.o [1]
+  .text              ro code   0x800'8474     0x25c  stm32g4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'86d0      0xfa  stm32g4xx_ll_gpio.o [1]
+  .text              ro code   0x800'87cc     0x4f8  stm32g4xx_hal_uart.o [1]
+  .text              ro code   0x800'8cc4     0x160  stm32g4xx_hal_uart_ex.o [1]
+  .text              ro code   0x800'8e24     0x164  motor_control.o [1]
+  .text              ro code   0x800'8f88      0x84  CPAP.o [1]
+  .text              ro code   0x800'900c       0xc  debug_io.o [1]
+  .text              ro code   0x800'9018      0xd8  regular_adc.o [1]
+  .text              ro code   0x800'90f0      0x98  timeRoutine.o [1]
+  .text              ro code   0x800'9188      0x10  stm32g4xx_hal.o [1]
+  .text              ro code   0x800'9198       0x2  stm32g4xx_hal_qspi.o [1]
+  .text              ro code   0x800'919a       0x2  stm32g4xx_hal_qspi.o [1]
+  .text              ro code   0x800'919c       0x2  stm32g4xx_hal_qspi.o [1]
+  .text              ro code   0x800'919e       0x2  stm32g4xx_hal_qspi.o [1]
+  .text              ro code   0x800'91a0       0x2  stm32g4xx_hal_qspi.o [1]
+  .text              ro code   0x800'91a2       0x2  stm32g4xx_hal_qspi.o [1]
+  .text              ro code   0x800'91a4       0x2  stm32g4xx_hal_qspi.o [1]
+  .text              ro code   0x800'91a6       0x2  stm32g4xx_hal_qspi.o [1]
+  .text              ro code   0x800'91a8     0x1fe  sensor_flow.o [1]
+  .text              ro code   0x800'93a8      0xb0  sensor_pressure.o [1]
+  .text              ro code   0x800'9458     0x2ba  usbd_core.o [1]
+  .text              ro code   0x800'9714      0x94  stm32g4xx_hal_timebase_tim.o [1]
+  .text              ro code   0x800'97a8     0x1c8  mc_tasks.o [1]
+  .text              ro code   0x800'9970     0x168  mc_tasks.o [1]
+  .text              ro code   0x800'9ad8      0x9c  ui_task.o [1]
+  .text              ro code   0x800'9b74     0x312  usbd_cdc.o [1]
+  .text              ro code   0x800'9e88      0x40  ff_gen_drv.o [1]
+  .text              ro code   0x800'9ec8     0x750  tasks.o [1]
+  .text              ro code   0x800'a618      0x3a  ABImemset48.o [4]
+  .text              ro code   0x800'a654     0x230  I64DivMod.o [4]
+  .text              ro code   0x800'a884      0x10  mc_api.o [1]
+  .text              ro code   0x800'a894       0xc  mc_api.o [1]
+  .text              ro code   0x800'a8a0       0xc  mc_api.o [1]
+  .text              ro code   0x800'a8ac       0xc  mc_api.o [1]
+  .text              ro code   0x800'a8b8       0xc  mc_api.o [1]
+  .text              ro code   0x800'a8c4       0xc  mc_api.o [1]
+  .text              ro code   0x800'a8d0       0xc  mc_api.o [1]
+  .text              ro code   0x800'a8dc     0x1ec  BreathTask.o [1]
+  .text              ro code   0x800'aac8     0x1f4  PressureTask.o [1]
+  .text              ro code   0x800'acbc     0x110  PressureControl.o [1]
+  .text              ro code   0x800'adcc     0x3a4  regular_conversion_manager.o [1]
+  .text              ro code   0x800'b170      0x48  FltToDbl.o [3]
+  .text              ro code   0x800'b1b8     0x102  sqrt.o [3]
+  .text              ro code   0x800'b2bc      0x68  DblToFlt.o [3]
+  .text              ro code   0x800'b324     0x1a2  DblMul.o [3]
+  .text              ro code   0x800'b4c8     0x17a  DblAdd.o [3]
+  .text              ro code   0x800'b644     0x5dc  usbd_ctlreq.o [1]
+  .text              ro code   0x800'bc20      0x9c  usbd_ioreq.o [1]
+  .text              ro code   0x800'bcbc       0xa  state_machine.o [1]
+  .text              ro code   0x800'bcc8     0x290  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'bf58      0x70  pwm_common.o [1]
+  .text              ro code   0x800'bfc8      0x14  pid_regulator.o [1]
+  .text              ro code   0x800'bfdc      0xa0  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'c07c      0x24  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'c0a0       0x4  virtual_speed_sensor.o [1]
+  .text              ro code   0x800'c0a4      0x58  revup_ctrl.o [1]
+  .text              ro code   0x800'c0fc      0x1a  r_divider_bus_voltage_sensor.o [1]
+  .text              ro code   0x800'c116      0x26  ntc_temperature_sensor.o [1]
+  .text              ro code   0x800'c13c      0x36  ramp_ext_mngr.o [1]
+  .text              ro code   0x800'c174      0x84  mc_tasks.o [1]
+  .text              ro code   0x800'c1f8      0x16  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'c20e      0x14  mc_interface.o [1]
+  .text              ro code   0x800'c222       0x6  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'c228       0xe  mc_interface.o [1]
+  .text              ro code   0x800'c238      0x24  mc_tasks.o [1]
+  .text              ro code   0x800'c25c      0x24  mc_tasks.o [1]
+  .text              ro code   0x800'c280       0x4  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'c284      0x44  motor_control_protocol.o [1]
+  .text              ro code   0x800'c2c8      0x18  user_interface.o [1]
+  .text              ro code   0x800'c2e0     0x238  heap_4.o [1]
+  .text              ro code   0x800'c518      0xba  list.o [1]
+  .text              ro code   0x800'c5d4     0x1e8  port.o [1]
+  .text              ro code   0x800'c7bc       0xc  app_freertos.o [1]
+  .text              ro code   0x800'c7c8       0xc  app_freertos.o [1]
+  .text              ro code   0x800'c7d4       0x2  I64DivZer.o [4]
+  .text              ro code   0x800'c7d6       0x6  mc_interface.o [1]
+  .text              ro code   0x800'c7dc      0x14  mc_interface.o [1]
+  .text              ro code   0x800'c7f0       0x8  mc_interface.o [1]
+  .text              ro code   0x800'c7f8      0x10  mc_interface.o [1]
+  .text              ro code   0x800'c808      0x10  mc_interface.o [1]
+  .text              ro code   0x800'c818      0x14  mc_interface.o [1]
+  .text              ro code   0x800'c82c     0x550  FlowProcess.o [1]
+  .text              ro code   0x800'cd7c     0x2c4  DynamicTemplate.o [1]
+  .text              ro code   0x800'd040     0x58c  EventDetection.o [1]
+  .text              ro code   0x800'd5cc     0x7b4  FlowLimitation.o [1]
+  .text              ro code   0x800'dd80     0x516  LeakManagement.o [1]
+  .text              ro code   0x800'e298     0x298  AutoMode.o [1]
+  .text              ro code   0x800'e530     0x35c  Swing.o [1]
+  .text              ro code   0x800'e88c      0x1a  U32ToDbl.o [3]
+  .text              ro code   0x800'e8a8     0x246  DblDiv.o [3]
+  .text              ro code   0x800'eaf0      0x2e  math_wrappers64.o [3]
+  .text              ro code   0x800'eb20      0x28  DblToU32.o [3]
+  .text              ro code   0x800'eb48      0xe2  DblSub.o [3]
+  .text              ro code   0x800'ec2c     0x798  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'f3c4      0xa6  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'f46a      0x2e  virtual_speed_sensor.o [1]
+  .text              ro code   0x800'f498      0x60  r_divider_bus_voltage_sensor.o [1]
+  .text              ro code   0x800'f4f8       0x6  ntc_temperature_sensor.o [1]
+  .text              ro code   0x800'f4fe       0x4  pid_regulator.o [1]
+  .text              ro code   0x800'f502      0x10  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'f512       0x4  pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'f518      0x50  mc_tasks.o [1]
+  .text              ro code   0x800'f568      0xa0  mc_tasks.o [1]
+  .text              ro code   0x800'f608      0x2a  frame_communication_protocol.o [1]
+  .text              ro code   0x800'f632      0x16  frame_communication_protocol.o [1]
+  .text              ro code   0x800'f648      0x1a  motor_control_protocol.o [1]
+  .text              ro code   0x800'f664      0x20  motorcontrol.o [1]
+  CODE               ro code   0x800'f684      0xb0  portasm.o [1]
+  .text              ro code   0x800'f734      0x16  state_machine.o [1]
+  .text              ro code   0x800'f74c      0xe0  state_machine.o [1]
+  .text              ro code   0x800'f82c       0xc  state_machine.o [1]
+  .text              ro code   0x800'f838       0x4  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'f83c       0x6  speed_pos_fdbk.o [1]
+  .text              ro code   0x800'f844      0x3a  DblToS32.o [3]
+  .text              ro code   0x800'f880      0x2e  DblCmpGe.o [3]
+  .text              ro code   0x800'f8b0      0x22  S32ToDbl.o [3]
+  .text              ro code   0x800'f8d4      0x44  exp64.o [3]
+  .text              ro code   0x800'f918     0x6c4  pow64.o [3]
+  .text              ro code   0x800'ffdc     0x424  cos_sin64.o [3]
+  .text              ro code   0x801'0400      0xa6  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'04a6      0x4e  pwm_common.o [1]
+  .text              ro code   0x801'04f4      0x60  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'0554     0x22c  mc_tasks.o [1]
+  .text              ro code   0x801'0780      0x3c  ntc_temperature_sensor.o [1]
+  .text              ro code   0x801'07bc       0x4  pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'07c0      0xa0  r_divider_bus_voltage_sensor.o [1]
+  .text              ro code   0x801'0860      0x2a  state_machine.o [1]
+  .text              ro code   0x801'088a       0x4  state_machine.o [1]
+  .text              ro code   0x801'088e      0x18  motor_power_measurement.o [1]
+  .text              ro code   0x801'08a8     0x3ac  iar_Exp64.o [3]
+  .text              ro code   0x801'0c54      0x20  DblCmpEq.o [3]
+  .text              ro code   0x801'0c74      0x70  frexp.o [3]
+  .text              ro code   0x801'0ce4      0x2e  DblCmpLe.o [3]
+  .text              ro code   0x801'0d14     0x1c4  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'0ed8      0x78  pqd_motor_power_measurement.o [1]
+  .text              ro code   0x801'0f50      0x2e  mc_interface.o [1]
+  .text              ro code   0x801'0f80      0x8c  revup_ctrl.o [1]
+  .text              ro code   0x801'100c      0x40  pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'104c       0x4  speed_torq_ctrl.o [1]
+  .text              ro code   0x801'1050     0x230  revup_ctrl.o [1]
+  .text              ro code   0x801'1280      0x58  speed_torq_ctrl.o [1]
+  .text              ro code   0x801'12d8      0x86  virtual_speed_sensor.o [1]
+  .text              ro code   0x801'135e      0xa2  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'1400       0x6  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'1406      0x1e  virtual_speed_sensor.o [1]
+  .text              ro code   0x801'1424       0x6  speed_pos_fdbk.o [1]
+  .text              ro code   0x801'142c      0x68  mc_math.o [1]
+  .text              ro code   0x801'1494      0x84  ramp_ext_mngr.o [1]
+  .text              ro code   0x801'1518       0x6  virtual_speed_sensor.o [1]
+  .text              ro code   0x801'151e       0x4  pid_regulator.o [1]
+  .text              ro code   0x801'1522       0x2  mc_tasks.o [1]
+  .text              ro code   0x801'1524      0x28  mc_tasks.o [1]
+  .text              ro code   0x801'154c      0x10  speed_torq_ctrl.o [1]
+  .text              ro code   0x801'155c      0x6a  mc_interface.o [1]
+  .text              ro code   0x801'15c8       0xc  mc_tasks.o [1]
+  .text              ro code   0x801'15d4      0x14  mc_tasks.o [1]
+  .text              ro code   0x801'15e8      0x1a  ntc_temperature_sensor.o [1]
+  .text              ro code   0x801'1602      0x1a  r_divider_bus_voltage_sensor.o [1]
+  .text              ro code   0x801'161c       0x6  ABImemclr.o [4]
+  .text              ro code   0x801'1624     0x13a  ldexp.o [3]
+  .text              ro code   0x801'175e      0x58  speed_pos_fdbk.o [1]
+  .text              ro code   0x801'17b6       0xc  bus_voltage_sensor.o [1]
+  .text              ro code   0x801'17c4      0x5e  motor_power_measurement.o [1]
+  .text              ro code   0x801'1822       0x8  speed_torq_ctrl.o [1]
+  .text              ro code   0x801'182a       0xe  virtual_speed_sensor.o [1]
+  .text              ro code   0x801'1838      0x94  speed_torq_ctrl.o [1]
+  .text              ro code   0x801'18cc      0x88  virtual_speed_sensor.o [1]
+  .text              ro code   0x801'1954       0x8  virtual_speed_sensor.o [1]
+  .text              ro code   0x801'195c       0x4  pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'1960       0x4  pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'1964      0x80  pid_regulator.o [1]
+  .text              ro code   0x801'19e4      0x20  mc_math.o [1]
+  .text              ro code   0x801'1a04      0x2a  ramp_ext_mngr.o [1]
+  .text              ro code   0x801'1a2e       0xc  speed_torq_ctrl.o [1]
+  .text              ro code   0x801'1a3c     0x6b0  bsp_w25q64.o [1]
+  .text              ro code   0x801'20ec     0x544  motor_control_protocol.o [1]
+  .text              ro code   0x801'2630     0x2a0  user_interface.o [1]
+  .text              ro code   0x801'28d0     0x530  user_interface.o [1]
+  .text              ro code   0x801'2e00      0x90  user_interface.o [1]
+  .text              ro code   0x801'2e90      0x30  user_interface.o [1]
+  .text              ro code   0x801'2ec0      0x12  user_interface.o [1]
+  .text              ro code   0x801'2ed2      0x4e  user_interface.o [1]
+  .text              ro code   0x801'2f20      0x38  user_interface.o [1]
+  .text              ro code   0x801'2f58      0x1a  user_interface.o [1]
+  .text              ro code   0x801'2f72       0x4  user_interface.o [1]
+  .text              ro code   0x801'2f76      0x14  user_interface.o [1]
+  .text              ro code   0x801'2f8a       0x8  mc_interface.o [1]
+  .text              ro code   0x801'2f92      0x12  mc_interface.o [1]
+  .text              ro code   0x801'2fa4       0x6  mc_interface.o [1]
+  .text              ro code   0x801'2faa       0xe  mc_interface.o [1]
+  .text              ro code   0x801'2fb8      0x1e  mc_interface.o [1]
+  .text              ro code   0x801'2fd6       0x4  pid_regulator.o [1]
+  .text              ro code   0x801'2fda       0x4  pid_regulator.o [1]
+  .text              ro code   0x801'2fde       0x4  pid_regulator.o [1]
+  .text              ro code   0x801'2fe2       0xa  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'2fec       0x6  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'2ff2      0x1e  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'3010      0x20  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'3030       0x8  mc_interface.o [1]
+  .text              ro code   0x801'3038       0x4  user_interface.o [1]
+  .text              ro code   0x801'303c      0x26  ntc_temperature_sensor.o [1]
+  .text              ro code   0x801'3062       0x4  mc_interface.o [1]
+  .text              ro code   0x801'3066      0x10  mc_interface.o [1]
+  .text              ro code   0x801'3076       0x4  pid_regulator.o [1]
+  .text              ro code   0x801'307a       0x6  pid_regulator.o [1]
+  .text              ro code   0x801'3080       0x6  pid_regulator.o [1]
+  .text              ro code   0x801'3086       0x6  pid_regulator.o [1]
+  .text              ro code   0x801'308c      0x14  speed_pos_fdbk.o [1]
+  .text              ro code   0x801'30a0      0x1c  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'30bc      0x18  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'30d4       0x6  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'30da       0x6  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'30e0       0x6  motor_power_measurement.o [1]
+  .text              ro code   0x801'30e6       0x4  speed_torq_ctrl.o [1]
+  .text              ro code   0x801'30ea       0x6  speed_torq_ctrl.o [1]
+  .text              ro code   0x801'30f0       0xe  mc_interface.o [1]
+  .text              ro code   0x801'30fe       0x6  revup_ctrl.o [1]
+  .text              ro code   0x801'3104       0xe  mc_interface.o [1]
+  .text              ro code   0x801'3112       0xe  mc_interface.o [1]
+  .text              ro code   0x801'3120      0x10  mc_interface.o [1]
+  .text              ro code   0x801'3130      0x10  mc_interface.o [1]
+  .text              ro code   0x801'3140       0x6  mc_interface.o [1]
+  .text              ro code   0x801'3146       0x6  mc_interface.o [1]
+  .text              ro code   0x801'314c       0x8  mc_interface.o [1]
+  .text              ro code   0x801'3154      0x10  mc_interface.o [1]
+  .text              ro code   0x801'3164       0xc  revup_ctrl.o [1]
+  .text              ro code   0x801'3170       0xe  revup_ctrl.o [1]
+  .text              ro code   0x801'317e       0xe  revup_ctrl.o [1]
+  .text              ro code   0x801'318c       0xc  revup_ctrl.o [1]
+  .text              ro code   0x801'3198       0xc  revup_ctrl.o [1]
+  .text              ro code   0x801'31a4       0xc  revup_ctrl.o [1]
+  .text              ro code   0x801'31b0       0xc  speed_torq_ctrl.o [1]
+  .text              ro code   0x801'31bc       0x8  speed_torq_ctrl.o [1]
+  .rodata            const     0x801'31c4      0x6c  mc_parameters.o [1]
+  .rodata            const     0x801'3230     0x420  pow64.o [3]
+  .rodata            const     0x801'3650     0x400  regular_adc.o [1]
+  .text              ro code   0x801'3a50     0x1ee  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'3c3e     0x1b8  pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'3df8     0x158  mc_tasks.o [1]
+  .text              ro code   0x801'3f50       0xc  ramp_ext_mngr.o [1]
+  .text              ro code   0x801'3f5c       0x6  revup_ctrl.o [1]
+  .text              ro code   0x801'3f62       0x6  speed_pos_fdbk.o [1]
+  .text              ro code   0x801'3f68       0x4  pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'3f6c      0x48  mc_math.o [1]
+  .text              ro code   0x801'3fb4      0x56  circle_limitation.o [1]
+  .text              ro code   0x801'400a      0x3e  mc_math.o [1]
+  .text              ro code   0x801'4048      0x14  revup_ctrl.o [1]
+  .text              ro code   0x801'405c       0x4  bus_voltage_sensor.o [1]
+  .text              ro code   0x801'4060      0x56  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'40b6       0x8  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'40be      0x94  virtual_speed_sensor.o [1]
+  .text              ro code   0x801'4154     0x130  usbd_desc.o [1]
+  .rodata            const     0x801'4284     0x11c  LeakManagement.o [1]
+  .text              ro code   0x801'43a0     0x114  stm32g4xx_mc_it.o [1]
+  .text              ro code   0x801'44b4      0x8c  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'4540      0x1a  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'455a      0x34  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'4590      0xe4  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x801'4674       0xc  ui_task.o [1]
+  .text              ro code   0x801'4680       0xc  ui_task.o [1]
+  .text              ro code   0x801'468c      0x64  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x801'46f0      0x18  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x801'4708      0x20  mc_tasks.o [1]
+  .text              ro code   0x801'4728      0x5c  frame_communication_protocol.o [1]
+  .text              ro code   0x801'4784      0x84  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x801'4808     0x104  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .rodata            const     0x801'490c      0xc4  mc_parameters.o [1]
+  .rodata            const     0x801'49d0      0x90  LeakManagement.o [1]
+  .text              ro code   0x801'4a60      0x8a  user_diskio.o [1]
+  .text              ro code   0x801'4aea      0x78  lz77_init_single.o [4]
+  .rodata            const     0x801'4b64      0x60  LeakManagement.o [1]
+  .text              ro code   0x801'4bc4      0x4c  usbd_cdc_if.o [1]
+  .text              ro code   0x801'4c10      0x28  r3_2_g4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x801'4c38      0x28  data_init.o [4]
+  .text              ro code   0x801'4c60      0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x801'4c84      0x20  - Linker created -
+  .rodata            const     0x801'4ca4      0x20  motorcontrol.o [1]
+  .text              ro code   0x801'4cc4      0x20  system_stm32g4xx.o [1]
+  .text              ro code   0x801'4ce4      0x1e  cmain.o [4]
+  .text              ro code   0x801'4d02       0x4  low_level_init.o [2]
+  .text              ro code   0x801'4d06       0x4  exit.o [2]
+  .text              ro code   0x801'4d0c       0xa  cexit.o [4]
+  .text              ro code   0x801'4d18      0x14  exit.o [5]
+  .rodata            const     0x801'4d2c      0x10  main.o [1]
+  .rodata            const     0x801'4d3c      0x10  main.o [1]
+  .rodata            const     0x801'4d4c      0x10  main.o [1]
+  .text              ro code   0x801'4d5c      0x10  startup_stm32g474xx.o [1]
+  .rodata            const     0x801'4d6c       0xc  main.o [1]
+  .rodata            const     0x801'4d78       0xc  main.o [1]
+  .rodata            const     0x801'4d84       0xc  main.o [1]
+  .text              ro code   0x801'4d90       0xc  cstartup_M.o [4]
+  .text              ro code   0x801'4d9c       0xa  sto_pll_speed_pos_fdbk.o [1]
+  .rodata            const     0x801'4da8       0x8  main.o [1]
+  .rodata            const     0x801'4db0       0x8  main.o [1]
+  .rodata            const     0x801'4db8       0x8  system_stm32g4xx.o [1]
+  .text              ro code   0x801'4dc0       0x8  sto_pll_speed_pos_fdbk.o [1]
+  .text              ro code   0x801'4dc8       0x8  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x801'4dd0       0x4  motor_control_protocol.o [1]
+  .text              ro code   0x801'4dd4       0x4  motor_control_protocol.o [1]
+  .text              ro code   0x801'4dd8       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ddc       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4de0       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4de4       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4de8       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4dec       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4df0       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4df4       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4df8       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4dfc       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e00       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e04       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e08       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e0c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e10       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e14       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e18       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e1c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e20       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e24       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e28       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e2c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e30       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e34       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e38       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e3c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e40       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e44       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e48       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e4c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e50       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e54       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e58       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e5c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e60       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e64       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e68       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e6c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e70       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e74       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e78       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e7c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e80       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e84       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e88       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e8c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e90       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e94       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e98       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4e9c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ea0       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ea4       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ea8       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4eac       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4eb0       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4eb4       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4eb8       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ebc       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ec0       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ec4       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ec8       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ecc       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ed0       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ed4       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ed8       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4edc       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ee0       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ee4       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ee8       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4eec       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ef0       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ef4       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4ef8       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4efc       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f00       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f04       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f08       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f0c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f10       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f14       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f18       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f1c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f20       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f24       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f28       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f2c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f30       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f34       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f38       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f3c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f40       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f44       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f48       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f4c       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f50       0x4  startup_stm32g474xx.o [1]
+  .text              ro code   0x801'4f54       0x4  startup_stm32g474xx.o [1]
+  .rodata            const     0x801'4f58       0x0  zero_init3.o [4]
+  .rodata            const     0x801'4f58       0x0  lz77_init_single.o [4]
+  Initializer bytes  const     0x801'4f58     0x390  <for P2-1>
+                             - 0x801'52e8  0x1'5110
+
+"P2", part 1 of 3:                           0x1a2a
+  P2-1                        0x2000'0000    0x1a2a  <Init block>
+    .data            inited   0x2000'0000      0x34  AutoMode.o [1]
+    .data            inited   0x2000'0034     0x3d4  BreathTask.o [1]
+    .data            inited   0x2000'0408       0x8  BreathTask.o [1]
+    .data            inited   0x2000'0410      0x48  DynamicTemplate.o [1]
+    .data            inited   0x2000'0458      0x50  EventDetection.o [1]
+    .data            inited   0x2000'04a8      0x5c  FlowProcess.o [1]
+    .data            inited   0x2000'0504      0x18  LeakManagement.o [1]
+    .data            inited   0x2000'051c     0x114  mc_config.o [1]
+    .data            inited   0x2000'0630      0x2c  mc_config.o [1]
+    .data            inited   0x2000'065c      0x2c  mc_config.o [1]
+    .data            inited   0x2000'0688      0x2c  mc_config.o [1]
+    .data            inited   0x2000'06b4      0x34  mc_config.o [1]
+    .data            inited   0x2000'06e8      0x78  mc_config.o [1]
+    .data            inited   0x2000'0760      0x7c  mc_config.o [1]
+    .data            inited   0x2000'07dc      0x38  mc_config.o [1]
+    .data            inited   0x2000'0814     0x128  mc_config.o [1]
+    .data            inited   0x2000'093c      0x14  mc_config.o [1]
+    .data            inited   0x2000'0950      0x28  mc_config.o [1]
+    .data            inited   0x2000'0978      0x28  mc_config.o [1]
+    .data            inited   0x2000'09a0      0x18  mc_config.o [1]
+    .data            inited   0x2000'09b8      0xb4  mc_config.o [1]
+    .data            inited   0x2000'0a6c     0x13c  mc_config.o [1]
+    .data            inited   0x2000'0ba8      0x14  motor_control.o [1]
+    .data            inited   0x2000'0bbc       0xc  motorcontrol.o [1]
+    .data            inited   0x2000'0bc8       0xc  port.o [1]
+    .data            inited   0x2000'0bd4     0xc88  PressureTask.o [1]
+    .data            inited   0x2000'185c       0xc  regular_adc.o [1]
+    .data            inited   0x2000'1868       0x8  regular_adc.o [1]
+    .data            inited   0x2000'1870       0xc  stm32g4xx_hal.o [1]
+    .data            inited   0x2000'187c      0x18  Swing.o [1]
+    .data            inited   0x2000'1894       0x4  system_stm32g4xx.o [1]
+    .data            inited   0x2000'1898       0xc  usbd_cdc.o [1]
+    .data            inited   0x2000'18a4      0x38  usbd_cdc.o [1]
+    .data            inited   0x2000'18dc      0x44  usbd_cdc.o [1]
+    .data            inited   0x2000'1920      0x44  usbd_cdc.o [1]
+    .data            inited   0x2000'1964      0x44  usbd_cdc.o [1]
+    .data            inited   0x2000'19a8      0x14  usbd_cdc_if.o [1]
+    .data            inited   0x2000'19bc      0x20  usbd_desc.o [1]
+    .data            inited   0x2000'19dc      0x14  usbd_desc.o [1]
+    .data            inited   0x2000'19f0       0x4  usbd_desc.o [1]
+    .data            inited   0x2000'19f4      0x1c  usbd_desc.o [1]
+    .data            inited   0x2000'1a10      0x14  user_diskio.o [1]
+    .data            inited   0x2000'1a24       0x6  ui_task.o [1]
+                            - 0x2000'1a2a    0x1a2a
+
+"P2", part 2 of 3:                           0x60d8
+  .bss               zero     0x2000'1a2c    0x3c20  heap_4.o [1]
+  .bss               zero     0x2000'564c    0x1000  usbd_cdc_if.o [1]
+  .bss               zero     0x2000'664c     0x2f4  usbd_conf.o [1]
+  .bss               zero     0x2000'6940     0x2d0  usb_device.o [1]
+  .bss               zero     0x2000'6c10     0x220  usbd_conf.o [1]
+  .bss               zero     0x2000'6e30     0x200  usbd_desc.o [1]
+  .bss               zero     0x2000'7030     0x12c  tasks.o [1]
+  .bss               zero     0x2000'715c      0xd4  mc_tasks.o [1]
+  .bss               zero     0x2000'7230      0xb4  ui_task.o [1]
+  .bss               zero     0x2000'72e4      0x94  main.o [1]
+  .bss               zero     0x2000'7378      0x90  main.o [1]
+  .bss               zero     0x2000'7408      0x90  main.o [1]
+  .bss               zero     0x2000'7498      0x6c  main.o [1]
+  .bss               zero     0x2000'7504      0x6c  main.o [1]
+  .bss               zero     0x2000'7570      0x58  CPAP.o [1]
+  .bss               zero     0x2000'75c8      0x50  color_led.o [1]
+  .bss               zero     0x2000'7618      0x50  regular_conversion_manager.o [1]
+  .bss               zero     0x2000'7668      0x4c  main.o [1]
+  .bss               zero     0x2000'76b4      0x4c  main.o [1]
+  .bss               zero     0x2000'7700      0x4c  main.o [1]
+  .bss               zero     0x2000'774c      0x4c  main.o [1]
+  .bss               zero     0x2000'7798      0x4c  main.o [1]
+  .bss               zero     0x2000'77e4      0x4c  main.o [1]
+  .bss               zero     0x2000'7830      0x4c  stm32g4xx_hal_timebase_tim.o [1]
+  .bss               zero     0x2000'787c      0x3c  main.o [1]
+  .bss               zero     0x2000'78b8      0x3c  main.o [1]
+  .bss               zero     0x2000'78f4      0x39  key_fifo.o [1]
+  .bss               zero     0x2000'792e      0x16  timer.o [1]
+  .bss               zero     0x2000'7944      0x30  FlowProcess.o [1]
+  .bss               zero     0x2000'7974      0x28  main.o [1]
+  .bss               zero     0x2000'799c      0x24  main.o [1]
+  .bss               zero     0x2000'79c0      0x24  main.o [1]
+  .bss               zero     0x2000'79e4      0x24  main.o [1]
+  .bss               zero     0x2000'7a08      0x1b  regular_adc.o [1]
+  .bss               zero     0x2000'7a23       0x1  stm32g4xx_it.o [1]
+  .bss               zero     0x2000'7a24      0x18  FlowProcess.o [1]
+  .bss               zero     0x2000'7a3c      0x18  mc_config.o [1]
+  .bss               zero     0x2000'7a54      0x14  rtc.o [1]
+  .bss               zero     0x2000'7a68      0x14  sensor_if.o [1]
+  .bss               zero     0x2000'7a7c      0x14  sensor_pressure.o [1]
+  .bss               zero     0x2000'7a90       0xc  ff_gen_drv.o [1]
+  .bss               zero     0x2000'7a9c       0xc  LeakManagement.o [1]
+  .bss               zero     0x2000'7aa8       0xc  mc_config.o [1]
+  .bss               zero     0x2000'7ab4       0xc  sensor_flow.o [1]
+  .bss               zero     0x2000'7ac0       0xc  timeRoutine.o [1]
+  .bss               zero     0x2000'7acc       0x8  app_fatfs.o [1]
+  .bss               zero     0x2000'7ad4       0x8  FlowProcess.o [1]
+  .bss               zero     0x2000'7adc       0x8  led.o [1]
+  .bss               zero     0x2000'7ae4       0x8  motor_control_protocol.o [1]
+  .bss               zero     0x2000'7aec       0x4  main.o [1]
+  .bss               zero     0x2000'7af0       0x4  main.o [1]
+  .bss               zero     0x2000'7af4       0x4  main.o [1]
+  .bss               zero     0x2000'7af8       0x4  rtc.o [1]
+  .bss               zero     0x2000'7afc       0x4  stm32g4xx_hal_msp.o [1]
+  .bss               zero     0x2000'7b00       0x1  usbd_ctlreq.o [1]
+                            - 0x2000'7b01    0x60d5
+
+"P2", part 3 of 3:                           0x1000
+  CSTACK                      0x2000'7b08    0x1000  <Block>
+    CSTACK           uninit   0x2000'7b08    0x1000  <Block tail>
+                            - 0x2000'8b08    0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x801'52e8   0x807'ffff  0x6'ad18
+  0x2000'1a2a  0x2000'1a2b       0x2
+  0x2000'7b04  0x2000'7b07       0x4
+  0x2000'8b08  0x2001'ffff  0x1'74f8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x60d5:
+          0x2000'1a2c  0x60d5
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x390 (13% of destination):
+           0x801'4f58   0x390
+    1 destination range, total size 0x1a2a:
+          0x2000'0000  0x1a2a
+
+
+*******************************************************************************
+*** STACK USAGE
+***
+
+  Call Graph Root Category  Max Use  Total Use
+  ------------------------  -------  ---------
+  Program entry                320        320
+  Uncalled function          1'400      4'340
+
+
+Program entry
+  "__iar_program_start": 0x801'4d91
+
+  Maximum call chain                            *?* 320  bytes
+    (** call graph contains indirect calls (example: "PWMC_SwitchOffPWM")
+                            functions with no stack usage info (example: "vPortEnableVFP") **)
+
+    "__iar_program_start"                             0
+    "__cmain"                                         0
+    "main"                                           48
+    "SystemClock_Config"                            168
+    "HAL_RCC_OscConfig"                              32
+    "HAL_InitTick"                                   48
+    "HAL_TIM_Base_Init"                               8
+    "HAL_TIM_Base_MspInit"                            8
+    "HAL_NVIC_SetPriority"                            8
+
+Uncalled function
+  "TSK_Algorithm": 0x800'4329
+
+  Maximum call chain                            1'400  bytes
+
+    "TSK_Algorithm"                                32
+    "CPAPProcess"                                   8
+    "BreathTaskProcess"                             8
+    "FLDetectionV2"                                 8
+    "RecognizeFlowLimitation"                   1'160
+    "__iar_vfp_pow"                                 8
+    "__iar_pow64"                                  88
+    "__iar_Exp64"                                  64
+    "__aeabi_dadd"                                 12
+    "__iar_dsub"                                   12
+
+Uncalled function
+  "TSK_Comm": 0x800'43c9
+
+  Maximum call chain                               72  bytes
+
+    "TSK_Comm"                                      8
+    "osDelay"                                       8
+    "vTaskDelay"                                   16
+    "xTaskResumeAll"                               16
+    "xTaskIncrementTick"                           24
+    "uxListRemove"                                  0
+
+Uncalled function
+  "TSK_CpuUsage": 0x800'43d5
+
+  Maximum call chain                               72  bytes
+
+    "TSK_CpuUsage"                                  8
+    "osDelay"                                       8
+    "vTaskDelay"                                   16
+    "xTaskResumeAll"                               16
+    "xTaskIncrementTick"                           24
+    "uxListRemove"                                  0
+
+Uncalled function
+  "TSK_FileSystem": 0x800'43a5
+
+  Maximum call chain                               72  bytes
+
+    "TSK_FileSystem"                                8
+    "osDelay"                                       8
+    "vTaskDelay"                                   16
+    "xTaskResumeAll"                               16
+    "xTaskIncrementTick"                           24
+    "uxListRemove"                                  0
+
+Uncalled function
+  "TSK_Mode": 0x800'4399
+
+  Maximum call chain                               72  bytes
+
+    "TSK_Mode"                                      8
+    "osDelay"                                       8
+    "vTaskDelay"                                   16
+    "xTaskResumeAll"                               16
+    "xTaskIncrementTick"                           24
+    "uxListRemove"                                  0
+
+Uncalled function
+  "TSK_Peripheral": 0x800'43b1
+
+  Maximum call chain                              112  bytes
+
+    "TSK_Peripheral"                                8
+    "TimeService"                                   0
+    "sensors_control_polling"                      16
+    "DP_measure_start"                              8
+    "HAL_I2C_Init"                                  8
+    "HAL_I2C_MspInit"                              32
+    "HAL_GPIO_Init"                                40
+
+Uncalled function
+  "StartSafetyTask": 0x800'9981
+
+  Maximum call chain                            *?* 92  bytes
+    (** call graph contains indirect calls (example: "RCM_ExecUserConv") **)
+
+    "StartSafetyTask"                                8
+    "TSK_SafetyTask"                                 8
+    "TSK_SafetyTask_PWMOFF"                         32
+    "RVBS_CalcAvVbus"                               24
+    "RCM_ExecRegularConv"                           20
+
+Uncalled function
+  "startMediumFrequencyTask": 0x800'9971
+
+  Maximum call chain                            *?* 112  bytes
+    (** call graph contains indirect calls (example: "PWMC_SwitchOffPWM") **)
+
+    "startMediumFrequencyTask"                        8
+    "MC_RunMotorControlTasks"                         8
+    "MC_Scheduler"                                    8
+    "TSK_MediumFrequencyTaskM1"                      32
+    "RUC_OTF_Exec"                                   32
+    "STC_ExecRamp"                                   24
+    "STC_GetTorqueRef"                                0
+
+Uncalled function
+  "MCP_OnTimeOut": 0x801'4dd1
+
+  Maximum call chain                            *?* 8  bytes
+    (** call graph contains indirect calls (example: "MCP_WaitNextFrame") **)
+
+    "MCP_OnTimeOut"                                 0
+    "MCP_WaitNextFrame"                             8
+
+Uncalled function
+  "MCP_ReceivedFrame": 0x801'20ed
+
+  Maximum call chain                            *?* 104  bytes
+    (** call graph contains indirect calls (example: "MCP_ReceivedFrame") **)
+
+    "MCP_ReceivedFrame"                              64
+    "UI_ExecCmd"                                     16
+    "MCI_StartMotor"                                  8
+    "STM_NextState"                                   8
+    "STM_FaultProcessing"                             8
+
+Uncalled function
+  "MCP_SentFrame": 0x801'4dd5
+
+  Maximum call chain                            *?* 8  bytes
+    (** call graph contains indirect calls (example: "MCP_WaitNextFrame") **)
+
+    "MCP_SentFrame"                                 0
+    "MCP_WaitNextFrame"                             8
+
+Uncalled function
+  "prvTaskExitError" in port.o [1]: 0x800'c5fd
+
+  Maximum call chain                                0  bytes
+
+    "prvTaskExitError" in port.o [1]                0
+
+Uncalled function
+  "SysTick_Handler": 0x800'c77d
+
+  Maximum call chain                               32  bytes
+
+    "SysTick_Handler"                               8
+    "xTaskIncrementTick"                           24
+    "uxListRemove"                                  0
+
+Uncalled function
+  "R3_2_HFCurrentsPolarizationAB" in r3_2_g4xx_pwm_curr_fdbk.o [1]: 0x800'edb5
+
+  Maximum call chain                               12  bytes
+
+    "R3_2_HFCurrentsPolarizationAB" in r3_2_g4xx_pwm_curr_fdbk.o [1]
+                                                   12
+
+Uncalled function
+  "R3_2_HFCurrentsPolarizationC" in r3_2_g4xx_pwm_curr_fdbk.o [1]: 0x800'edfd
+
+  Maximum call chain                                8  bytes
+
+    "R3_2_HFCurrentsPolarizationC" in r3_2_g4xx_pwm_curr_fdbk.o [1]
+                                                    8
+
+Uncalled function
+  "R3_2_RLGetPhaseCurrents" in r3_2_g4xx_pwm_curr_fdbk.o [1]: 0x800'f10d
+
+  Maximum call chain                                0  bytes
+
+    "R3_2_RLGetPhaseCurrents" in r3_2_g4xx_pwm_curr_fdbk.o [1]
+                                                    0
+
+Uncalled function
+  "R3_2_RLSwitchOnPWM" in r3_2_g4xx_pwm_curr_fdbk.o [1]: 0x800'f195
+
+  Maximum call chain                               12  bytes
+
+    "R3_2_RLSwitchOnPWM" in r3_2_g4xx_pwm_curr_fdbk.o [1]
+                                                   12
+
+Uncalled function
+  "R3_2_RLTurnOnLowSides" in r3_2_g4xx_pwm_curr_fdbk.o [1]: 0x800'f149
+
+  Maximum call chain                                0  bytes
+
+    "R3_2_RLTurnOnLowSides" in r3_2_g4xx_pwm_curr_fdbk.o [1]
+                                                    0
+
+Uncalled function
+  "R3_2_CurrentReadingPolarization": 0x800'f27d
+
+  Maximum call chain                               40  bytes
+
+    "R3_2_CurrentReadingPolarization"              24
+    "waitForPolarizationEnd"                       16
+
+Uncalled function
+  "R3_2_GetPhaseCurrents": 0x801'4809
+
+  Maximum call chain                               16  bytes
+
+    "R3_2_GetPhaseCurrents"                        16
+
+Uncalled function
+  "R3_2_IsOverCurrentOccurred": 0x801'4c11
+
+  Maximum call chain                                0  bytes
+
+    "R3_2_IsOverCurrentOccurred"                    0
+
+Uncalled function
+  "R3_2_RLDetectionModeDisable": 0x800'efbf
+
+  Maximum call chain                               12  bytes
+
+    "R3_2_RLDetectionModeDisable"                  12
+
+Uncalled function
+  "R3_2_RLDetectionModeEnable": 0x800'ef07
+
+  Maximum call chain                               12  bytes
+
+    "R3_2_RLDetectionModeEnable"                   12
+
+Uncalled function
+  "R3_2_RLDetectionModeSetDuty": 0x800'f09b
+
+  Maximum call chain                                0  bytes
+
+    "R3_2_RLDetectionModeSetDuty"                   0
+
+Uncalled function
+  "R3_2_SetADCSampPointPolarization": 0x800'ed23
+
+  Maximum call chain                                0  bytes
+
+    "R3_2_SetADCSampPointPolarization"              0
+    "R3_2_WriteTIMRegisters" in r3_2_g4xx_pwm_curr_fdbk.o [1]
+                                                    0
+
+Uncalled function
+  "R3_2_SetADCSampPointSectX": 0x800'ed35
+
+  Maximum call chain                               16  bytes
+
+    "R3_2_SetADCSampPointSectX"                    16
+
+Uncalled function
+  "R3_2_TurnOnLowSides": 0x800'18bf
+
+  Maximum call chain                                0  bytes
+
+    "R3_2_TurnOnLowSides"                           0
+
+Uncalled function
+  "motor_temperature_conversion_cb" in regular_adc.o [1]: 0x800'9089
+
+  Maximum call chain                                0  bytes
+
+    "motor_temperature_conversion_cb" in regular_adc.o [1]
+                                                    0
+
+Uncalled function
+  "vbat_conversion_cb" in regular_adc.o [1]: 0x800'90b1
+
+  Maximum call chain                                0  bytes
+
+    "vbat_conversion_cb" in regular_adc.o [1]       0
+
+Uncalled function
+  "I2C_DMAAbort" in stm32g4xx_hal_i2c.o [1]: 0x800'1005
+
+  Maximum call chain                                0  bytes
+
+    "I2C_DMAAbort" in stm32g4xx_hal_i2c.o [1]       0
+    "I2C_TreatErrorCallback" in stm32g4xx_hal_i2c.o [1]
+                                                    0
+    "HAL_I2C_AbortCpltCallback"                     0
+
+Uncalled function
+  "I2C_Master_ISR_DMA" in stm32g4xx_hal_i2c.o [1]: 0x800'07dd
+
+  Maximum call chain                            *?* 32  bytes
+    (** call graph contains indirect calls (example: "I2C_ITError" in stm32g4xx_hal_i2c.o [1]) **)
+
+    "I2C_Master_ISR_DMA" in stm32g4xx_hal_i2c.o [1]
+                                                    16
+    "I2C_ITMasterCplt" in stm32g4xx_hal_i2c.o [1]
+                                                     0
+    "I2C_ITError" in stm32g4xx_hal_i2c.o [1]         8
+    "HAL_DMA_Abort_IT"                               8
+
+Uncalled function
+  "I2C_Master_ISR_IT" in stm32g4xx_hal_i2c.o [1]: 0x800'0571
+
+  Maximum call chain                            *?* 40  bytes
+    (** call graph contains indirect calls (example: "I2C_ITError" in stm32g4xx_hal_i2c.o [1]) **)
+
+    "I2C_Master_ISR_IT" in stm32g4xx_hal_i2c.o [1]
+                                                    24
+    "I2C_ITMasterCplt" in stm32g4xx_hal_i2c.o [1]
+                                                     0
+    "I2C_ITError" in stm32g4xx_hal_i2c.o [1]         8
+    "HAL_DMA_Abort_IT"                               8
+
+Uncalled function
+  "I2C_Slave_ISR_DMA" in stm32g4xx_hal_i2c.o [1]: 0x800'0929
+
+  Maximum call chain                            *?* 56  bytes
+    (** call graph contains indirect calls (example: "I2C_ITError" in stm32g4xx_hal_i2c.o [1]) **)
+
+    "I2C_Slave_ISR_DMA" in stm32g4xx_hal_i2c.o [1]
+                                                    24
+    "I2C_ITSlaveCplt" in stm32g4xx_hal_i2c.o [1]
+                                                    16
+    "I2C_ITError" in stm32g4xx_hal_i2c.o [1]         8
+    "HAL_DMA_Abort_IT"                               8
+
+Uncalled function
+  "I2C_Slave_ISR_IT" in stm32g4xx_hal_i2c.o [1]: 0x800'06b9
+
+  Maximum call chain                            *?* 56  bytes
+    (** call graph contains indirect calls (example: "I2C_ITError" in stm32g4xx_hal_i2c.o [1]) **)
+
+    "I2C_Slave_ISR_IT" in stm32g4xx_hal_i2c.o [1]
+                                                    24
+    "I2C_ITSlaveCplt" in stm32g4xx_hal_i2c.o [1]
+                                                    16
+    "I2C_ITError" in stm32g4xx_hal_i2c.o [1]         8
+    "HAL_DMA_Abort_IT"                               8
+
+Uncalled function
+  "QSPI_DMAAbortCplt" in stm32g4xx_hal_qspi.o [1]: 0x800'4af9
+
+  Maximum call chain                                0  bytes
+
+    "QSPI_DMAAbortCplt" in stm32g4xx_hal_qspi.o [1]
+                                                    0
+    "HAL_QSPI_ErrorCallback"                        0
+
+Uncalled function
+  "I2C3_EV_IRQHandler": 0x800'187d
+
+  Maximum call chain                            *?* 0  bytes
+    (** call graph contains indirect calls (example: "HAL_I2C_EV_IRQHandler") **)
+
+    "I2C3_EV_IRQHandler"                            0
+    "HAL_I2C_EV_IRQHandler"                         0
+
+Uncalled function
+  "I2C4_EV_IRQHandler": 0x800'1877
+
+  Maximum call chain                            *?* 0  bytes
+    (** call graph contains indirect calls (example: "HAL_I2C_EV_IRQHandler") **)
+
+    "I2C4_EV_IRQHandler"                            0
+    "HAL_I2C_EV_IRQHandler"                         0
+
+Uncalled function
+  "QUADSPI_IRQHandler": 0x800'1883
+
+  Maximum call chain                            *?* 24  bytes
+    (** call graph contains indirect calls (example: "HAL_DMA_Abort_IT") **)
+
+    "QUADSPI_IRQHandler"                             0
+    "HAL_QSPI_IRQHandler"                           16
+    "HAL_DMA_Abort_IT"                               8
+
+Uncalled function
+  "TIM6_DAC_IRQHandler": 0x800'183f
+
+  Maximum call chain                               40  bytes
+
+    "TIM6_DAC_IRQHandler"                           0
+    "HAL_TIM_IRQHandler"                            8
+    "HAL_TIM_PeriodElapsedCallback"                 0
+    "color_led_blink_polling"                      16
+    "color_led_turn_off"                            8
+    "HAL_TIM_PWM_Stop"                              8
+
+Uncalled function
+  "TIM7_DAC_IRQHandler": 0x800'1845
+
+  Maximum call chain                               48  bytes
+
+    "TIM7_DAC_IRQHandler"                           8
+    "HAL_TIM_IRQHandler"                            8
+    "HAL_TIM_PeriodElapsedCallback"                 0
+    "color_led_blink_polling"                      16
+    "color_led_turn_off"                            8
+    "HAL_TIM_PWM_Stop"                              8
+
+Uncalled function
+  "USB_LP_IRQHandler": 0x800'1839
+
+  Maximum call chain                            *?* 304  bytes
+    (** call graph contains indirect calls (example: "USBD_LL_DataInStage") **)
+
+    "USB_LP_IRQHandler"                               0
+    "HAL_PCD_IRQHandler"                             24
+    "HAL_PCDEx_LPM_Callback"                          8
+    "SystemClock_Config"                            168
+    "HAL_RCC_OscConfig"                              32
+    "HAL_InitTick"                                   48
+    "HAL_TIM_Base_Init"                               8
+    "HAL_TIM_Base_MspInit"                            8
+    "HAL_NVIC_SetPriority"                            8
+
+Uncalled function
+  "ADC1_2_IRQHandler": 0x801'43a1
+
+  Maximum call chain                            *?* 128  bytes
+    (** call graph contains indirect calls (example: "PWMC_GetPhaseCurrents") **)
+
+    "ADC1_2_IRQHandler"                               0
+    "TSK_HighFrequencyTask"                          56
+    "STO_PLL_CalcElAngle"                            56
+    "PI_Controller"                                  16
+
+Uncalled function
+  "HardFault_Handler": 0x801'4449
+
+  Maximum call chain                            *?* 52  bytes
+    (** call graph contains indirect calls (example: "UFCP_RX_IRQ_Handler") **)
+
+    "HardFault_Handler"                              8
+    "UFCP_RX_IRQ_Handler"                           16
+    "UFCP_Send"                                     16
+    "FCP_CalcCRC"                                   12
+
+Uncalled function
+  "TIM1_BRK_TIM15_IRQHandler": 0x801'43bb
+
+  Maximum call chain                            *?* 96  bytes
+    (** call graph contains indirect calls (example: "PWMC_SwitchOffPWM") **)
+
+    "TIM1_BRK_TIM15_IRQHandler"                      0
+    "MC_Scheduler"                                   8
+    "TSK_MediumFrequencyTaskM1"                     32
+    "RUC_OTF_Exec"                                  32
+    "STC_ExecRamp"                                  24
+    "STC_GetTorqueRef"                               0
+
+Uncalled function
+  "TIM1_UP_TIM16_IRQHandler": 0x801'43ad
+
+  Maximum call chain                               16  bytes
+
+    "TIM1_UP_TIM16_IRQHandler"                      0
+    "R3_2_TIMx_UP_IRQHandler"                      16
+
+Uncalled function
+  "USART2_IRQHandler": 0x801'43eb
+
+  Maximum call chain                            *?* 52  bytes
+    (** call graph contains indirect calls (example: "UFCP_RX_IRQ_Handler") **)
+
+    "USART2_IRQHandler"                              8
+    "UFCP_RX_IRQ_Handler"                           16
+    "UFCP_Send"                                     16
+    "FCP_CalcCRC"                                   12
+
+Uncalled function
+  "STO_OTF_ResetPLL": 0x801'4d9d
+
+  Maximum call chain                                0  bytes
+
+    "STO_OTF_ResetPLL"                              0
+    "PID_SetIntegralTerm"                           0
+
+Uncalled function
+  "STO_PLL_ForceConvergency1": 0x800'5177
+
+  Maximum call chain                                0  bytes
+
+    "STO_PLL_ForceConvergency1"                     0
+
+Uncalled function
+  "STO_PLL_ForceConvergency2": 0x800'5e37
+
+  Maximum call chain                                0  bytes
+
+    "STO_PLL_ForceConvergency2"                     0
+
+Uncalled function
+  "STO_PLL_IsVarianceTight": 0x801'4dc1
+
+  Maximum call chain                                0  bytes
+
+    "STO_PLL_IsVarianceTight"                       0
+
+Uncalled function
+  "SystemInit": 0x801'4cc5
+
+  Maximum call chain                                0  bytes
+
+    "SystemInit"                                    0
+
+Uncalled function
+  "prvIdleTask" in tasks.o [1]: 0x800'a5a9
+
+  Maximum call chain                               64  bytes
+
+    "prvIdleTask" in tasks.o [1]                   24
+    "vPortFree"                                     0
+    "xTaskResumeAll"                               16
+    "xTaskIncrementTick"                           24
+    "uxListRemove"                                  0
+
+Uncalled function
+  "vTaskSwitchContext": 0x800'a52f
+
+  Maximum call chain                                8  bytes
+
+    "vTaskSwitchContext"                            8
+    "getRunTimeCounterValue"                        0
+
+Uncalled function
+  "UFCP_AbortReceive": 0x801'4dc9
+
+  Maximum call chain                                0  bytes
+
+    "UFCP_AbortReceive"                             0
+
+Uncalled function
+  "UFCP_Receive": 0x800'4e87
+
+  Maximum call chain                                0  bytes
+
+    "UFCP_Receive"                                  0
+
+Uncalled function
+  "USBD_CDC_DataIn" in usbd_cdc.o [1]: 0x800'9d35
+
+  Maximum call chain                            *?* 68  bytes
+    (** call graph contains indirect calls (example: "USBD_CDC_DataIn" in usbd_cdc.o [1]) **)
+
+    "USBD_CDC_DataIn" in usbd_cdc.o [1]             16
+    "USBD_LL_Transmit"                               8
+    "HAL_PCD_EP_Transmit"                           16
+    "USB_EPStartXfer"                               16
+    "USB_WritePMA"                                  12
+
+Uncalled function
+  "USBD_CDC_DataOut" in usbd_cdc.o [1]: 0x800'9d95
+
+  Maximum call chain                            *?* 16  bytes
+    (** call graph contains indirect calls (example: "USBD_CDC_DataOut" in usbd_cdc.o [1]) **)
+
+    "USBD_CDC_DataOut" in usbd_cdc.o [1]            16
+
+Uncalled function
+  "USBD_CDC_DeInit" in usbd_cdc.o [1]: 0x800'9c1d
+
+  Maximum call chain                            *?* 32  bytes
+    (** call graph contains indirect calls (example: "USBD_CDC_DeInit" in usbd_cdc.o [1]) **)
+
+    "USBD_CDC_DeInit" in usbd_cdc.o [1]              8
+    "USBD_LL_CloseEP"                                8
+    "HAL_PCD_EP_Close"                               8
+    "USB_DeactivateEndpoint"                         8
+
+Uncalled function
+  "USBD_CDC_EP0_RxReady" in usbd_cdc.o [1]: 0x800'9dc5
+
+  Maximum call chain                            *?* 8  bytes
+    (** call graph contains indirect calls (example: "USBD_CDC_EP0_RxReady" in usbd_cdc.o [1]) **)
+
+    "USBD_CDC_EP0_RxReady" in usbd_cdc.o [1]        8
+
+Uncalled function
+  "USBD_CDC_GetFSCfgDesc" in usbd_cdc.o [1]: 0x800'9df5
+
+  Maximum call chain                                0  bytes
+
+    "USBD_CDC_GetFSCfgDesc" in usbd_cdc.o [1]       0
+
+Uncalled function
+  "USBD_CDC_GetHSCfgDesc" in usbd_cdc.o [1]: 0x800'9dfd
+
+  Maximum call chain                                0  bytes
+
+    "USBD_CDC_GetHSCfgDesc" in usbd_cdc.o [1]       0
+
+Uncalled function
+  "USBD_CDC_GetOtherSpeedCfgDesc" in usbd_cdc.o [1]: 0x800'9e05
+
+  Maximum call chain                                0  bytes
+
+    "USBD_CDC_GetOtherSpeedCfgDesc" in usbd_cdc.o [1]
+                                                    0
+
+Uncalled function
+  "USBD_CDC_Init" in usbd_cdc.o [1]: 0x800'9b75
+
+  Maximum call chain                            *?* 68  bytes
+    (** call graph contains indirect calls (example: "USBD_CDC_Init" in usbd_cdc.o [1]) **)
+
+    "USBD_CDC_Init" in usbd_cdc.o [1]               16
+    "USBD_LL_PrepareReceive"                         8
+    "HAL_PCD_EP_Receive"                            16
+    "USB_EPStartXfer"                               16
+    "USB_WritePMA"                                  12
+
+Uncalled function
+  "USBD_CDC_Setup" in usbd_cdc.o [1]: 0x800'9c6d
+
+  Maximum call chain                            *?* 84  bytes
+    (** call graph contains indirect calls (example: "USBD_CDC_Setup" in usbd_cdc.o [1]) **)
+
+    "USBD_CDC_Setup" in usbd_cdc.o [1]              24
+    "USBD_CtlPrepareRx"                              8
+    "USBD_LL_PrepareReceive"                         8
+    "HAL_PCD_EP_Receive"                            16
+    "USB_EPStartXfer"                               16
+    "USB_WritePMA"                                  12
+
+Uncalled function
+  "USBD_CDC_GetDeviceQualifierDescriptor": 0x800'9e0d
+
+  Maximum call chain                                0  bytes
+
+    "USBD_CDC_GetDeviceQualifierDescriptor"         0
+
+Uncalled function
+  "CDC_Control_FS" in usbd_cdc_if.o [1]: 0x801'4beb
+
+  Maximum call chain                                0  bytes
+
+    "CDC_Control_FS" in usbd_cdc_if.o [1]           0
+
+Uncalled function
+  "CDC_DeInit_FS" in usbd_cdc_if.o [1]: 0x801'4be7
+
+  Maximum call chain                                0  bytes
+
+    "CDC_DeInit_FS" in usbd_cdc_if.o [1]            0
+
+Uncalled function
+  "CDC_Init_FS" in usbd_cdc_if.o [1]: 0x801'4bc5
+
+  Maximum call chain                               16  bytes
+
+    "CDC_Init_FS" in usbd_cdc_if.o [1]             16
+    "USBD_CDC_SetRxBuffer"                          0
+
+Uncalled function
+  "CDC_Receive_FS" in usbd_cdc_if.o [1]: 0x801'4bef
+
+  Maximum call chain                               68  bytes
+
+    "CDC_Receive_FS" in usbd_cdc_if.o [1]           8
+    "USBD_CDC_ReceivePacket"                        8
+    "USBD_LL_PrepareReceive"                        8
+    "HAL_PCD_EP_Receive"                           16
+    "USB_EPStartXfer"                              16
+    "USB_WritePMA"                                 12
+
+Uncalled function
+  "CDC_TransmitCplt_FS" in usbd_cdc_if.o [1]: 0x801'4c0d
+
+  Maximum call chain                                0  bytes
+
+    "CDC_TransmitCplt_FS" in usbd_cdc_if.o [1]      0
+
+Uncalled function
+  "USBD_CDC_ConfigStrDescriptor": 0x801'4201
+
+  Maximum call chain                               20  bytes
+
+    "USBD_CDC_ConfigStrDescriptor"                  8
+    "USBD_GetString"                               12
+
+Uncalled function
+  "USBD_CDC_DeviceDescriptor": 0x801'4155
+
+  Maximum call chain                                0  bytes
+
+    "USBD_CDC_DeviceDescriptor"                     0
+
+Uncalled function
+  "USBD_CDC_InterfaceStrDescriptor": 0x801'4215
+
+  Maximum call chain                               20  bytes
+
+    "USBD_CDC_InterfaceStrDescriptor"               8
+    "USBD_GetString"                               12
+
+Uncalled function
+  "USBD_CDC_LangIDStrDescriptor": 0x801'415d
+
+  Maximum call chain                                0  bytes
+
+    "USBD_CDC_LangIDStrDescriptor"                  0
+
+Uncalled function
+  "USBD_CDC_ManufacturerStrDescriptor": 0x801'4179
+
+  Maximum call chain                               20  bytes
+
+    "USBD_CDC_ManufacturerStrDescriptor"            8
+    "USBD_GetString"                               12
+
+Uncalled function
+  "USBD_CDC_ProductStrDescriptor": 0x801'4165
+
+  Maximum call chain                               20  bytes
+
+    "USBD_CDC_ProductStrDescriptor"                 8
+    "USBD_GetString"                               12
+
+Uncalled function
+  "USBD_CDC_SerialStrDescriptor": 0x801'418d
+
+  Maximum call chain                                8  bytes
+
+    "USBD_CDC_SerialStrDescriptor"                  8
+
+Uncalled function
+  "USER_initialize": 0x801'4a61
+
+  Maximum call chain                              120  bytes
+
+    "USER_initialize"                               8
+    "hal_spi_flash_get_id"                         72
+    "HAL_QSPI_Command"                             24
+    "QSPI_Config" in stm32g4xx_hal_qspi.o [1]      16
+
+Uncalled function
+  "USER_ioctl": 0x801'4ab9
+
+  Maximum call chain                                0  bytes
+
+    "USER_ioctl"                                    0
+
+Uncalled function
+  "USER_read": 0x801'4a81
+
+  Maximum call chain                              128  bytes
+
+    "USER_read"                                     8
+    "hal_spi_flash_read"                           80
+    "HAL_QSPI_Command"                             24
+    "QSPI_Config" in stm32g4xx_hal_qspi.o [1]      16
+
+Uncalled function
+  "USER_status": 0x801'4a7d
+
+  Maximum call chain                                0  bytes
+
+    "USER_status"                                   0
+
+Uncalled function
+  "USER_write": 0x801'4a9d
+
+  Maximum call chain                              344  bytes
+
+    "USER_write"                                    8
+    "hal_spi_flash_erase_write"                    16
+    "hal_spi_flash_write"                         112
+    "prv_spi_flash_write_page" in bsp_w25q64.o [1]
+                                                   88
+    "prv_spi_flash_wait_write_end" in bsp_w25q64.o [1]
+                                                   80
+    "HAL_QSPI_Command"                             24
+    "QSPI_Config" in stm32g4xx_hal_qspi.o [1]      16
+
+The following functions appear to be called, but have no stack
+usage information:
+
+  "vPortEnableVFP": 0x800'f719
+  "vPortStartFirstTask": 0x800'f6f9
+
+The following functions perform unknown indirect calls:
+
+  "HAL_DMA_Abort_IT": 0x800'1915
+  "HAL_I2C_EV_IRQHandler": 0x800'0561
+  "I2C_ITError" in stm32g4xx_hal_i2c.o [1]: 0x800'0ea7
+  "MCP_ReceivedFrame": 0x801'20ed
+  "MCP_WaitNextFrame": 0x800'f649
+  "PWMC_CheckOverCurrent": 0x801'07bd
+  "PWMC_CurrentReadingCalibr": 0x801'100d
+  "PWMC_GetPhaseCurrents": 0x801'3f69
+  "PWMC_SetPhaseVoltage": 0x801'3c3f
+  "PWMC_SwitchOffPWM": 0x800'f513
+  "PWMC_SwitchOnPWM": 0x801'1961
+  "PWMC_TurnOnLowSides": 0x801'195d
+  "RCM_ExecUserConv": 0x800'b05b
+  "RUC_OTF_Exec": 0x801'1051
+  "UFCP_RX_IRQ_Handler": 0x801'4591
+  "UFCP_TX_IRQ_Handler": 0x801'468d
+  "USBD_CDC_DataIn" in usbd_cdc.o [1]: 0x800'9d35
+  "USBD_CDC_DataOut" in usbd_cdc.o [1]: 0x800'9d95
+  "USBD_CDC_DeInit" in usbd_cdc.o [1]: 0x800'9c1d
+  "USBD_CDC_EP0_RxReady" in usbd_cdc.o [1]: 0x800'9dc5
+  "USBD_CDC_Init" in usbd_cdc.o [1]: 0x800'9b75
+  "USBD_CDC_Setup" in usbd_cdc.o [1]: 0x800'9c6d
+  "USBD_ClrClassConfig": 0x800'94c5
+  "USBD_LL_DataInStage": 0x800'95b3
+  "USBD_LL_DataOutStage": 0x800'953d
+  "USBD_LL_Reset": 0x800'965f
+  "USBD_LL_SOF": 0x800'96ef
+  "USBD_RegisterClass": 0x800'947f
+  "USBD_SetClassConfig": 0x800'94ad
+  "USBD_StdDevReq": 0x800'b645
+  "USBD_StdEPReq": 0x800'b9d9
+  "USBD_StdItfReq": 0x800'b981
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                ro code  ro data  rw data
+    ------                                -------  -------  -------
+command line/config:
+    ---------------------------------------------------------------
+    Total:
+
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj: [1]
+    AutoMode.o                                664        7       52
+    BreathTask.o                              492      134      988
+    CPAP.o                                    132                88
+    DynamicTemplate.o                         708       10       72
+    EventDetection.o                        1'420       11       80
+    FlowLimitation.o                        1'972
+    FlowProcess.o                           1'360       12      172
+    LeakManagement.o                        1'302      528       36
+    PressureControl.o                         272
+    PressureTask.o                            500      437    3'208
+    Swing.o                                   860        3       24
+    app_fatfs.o                                36                 8
+    app_freertos.o                             24
+    bsp_w25q64.o                            1'712
+    bus_voltage_sensor.o                       16
+    circle_limitation.o                        86
+    cmsis_os.o                                 80
+    color_led.o                               320                80
+    debug_io.o                                 12
+    ff_gen_drv.o                               64                12
+    frame_communication_protocol.o            156
+    heap_4.o                                  568            15'392
+    key_fifo.o                                604                57
+    led.o                                     156                 8
+    list.o                                    186
+    main.o                                  3'496      100    1'388
+    mc_api.o                                   88
+    mc_config.o                                        228    1'712
+    mc_interface.o                            486
+    mc_math.o                                 270
+    mc_parameters.o                                    304
+    mc_tasks.o                              2'266        2      212
+    motor_control.o                           356        3       20
+    motor_control_protocol.o                1'450                 8
+    motor_power_measurement.o                 124
+    motorcontrol.o                             80       33       12
+    ntc_temperature_sensor.o                  168
+    pid_regulator.o                           190
+    port.o                                    488        2       12
+    portasm.o                                 176
+    pqd_motor_power_measurement.o             120
+    pwm_common.o                              190
+    pwm_curr_fdbk.o                           524
+    r3_2_g4xx_pwm_curr_fdbk.o               3'466
+    r_divider_bus_voltage_sensor.o            308
+    ramp_ext_mngr.o                           240
+    regular_adc.o                             216    1'026       47
+    regular_conversion_manager.o              932                80
+    revup_ctrl.o                              896
+    rtc.o                                     136                24
+    sensor_flow.o                             510                12
+    sensor_if.o                               368                20
+    sensor_pressure.o                         176                20
+    speed_pos_fdbk.o                          126
+    speed_torq_ctrl.o                         390
+    startup_stm32g474xx.o                     872
+    state_machine.o                           314
+    stm32g4xx_hal.o                            58        2       12
+    stm32g4xx_hal_adc.o                     1'716
+    stm32g4xx_hal_adc_ex.o                  1'600
+    stm32g4xx_hal_comp.o                      580
+    stm32g4xx_hal_cordic.o                     54
+    stm32g4xx_hal_cortex.o                    232
+    stm32g4xx_hal_dma.o                       128
+    stm32g4xx_hal_gpio.o                      732
+    stm32g4xx_hal_i2c.o                     3'862
+    stm32g4xx_hal_i2c_ex.o                    188
+    stm32g4xx_hal_msp.o                     1'868                 4
+    stm32g4xx_hal_opamp.o                     248
+    stm32g4xx_hal_pcd.o                     3'156
+    stm32g4xx_hal_pcd_ex.o                    106
+    stm32g4xx_hal_pwr.o                        16
+    stm32g4xx_hal_pwr_ex.o                    208
+    stm32g4xx_hal_qspi.o                    1'830
+    stm32g4xx_hal_rcc.o                     1'808
+    stm32g4xx_hal_rcc_ex.o                    704
+    stm32g4xx_hal_rtc.o                       988
+    stm32g4xx_hal_rtc_ex.o                     28
+    stm32g4xx_hal_tim.o                     3'370
+    stm32g4xx_hal_tim_ex.o                    618
+    stm32g4xx_hal_timebase_tim.o              148                76
+    stm32g4xx_hal_uart.o                    1'272
+    stm32g4xx_hal_uart_ex.o                   352
+    stm32g4xx_it.o                            124                 1
+    stm32g4xx_ll_gpio.o                       250
+    stm32g4xx_ll_usb.o                      3'120
+    stm32g4xx_mc_it.o                         276
+    sto_pll_speed_pos_fdbk.o                1'714
+    system_stm32g4xx.o                         32        9        4
+    tasks.o                                 1'872               300
+    timeRoutine.o                             152                12
+    timer.o                                   212                22
+    ui_task.o                                 180        1      186
+    usart_frame_communication_protocol.o      534        6
+    usb_device.o                               84               720
+    usbd_cdc.o                                786       37      272
+    usbd_cdc_if.o                              76        3    4'116
+    usbd_conf.o                               714             1'300
+    usbd_core.o                               698
+    usbd_ctlreq.o                           1'500                 1
+    usbd_desc.o                               304       11      596
+    usbd_ioreq.o                              156
+    user_diskio.o                             138        3       20
+    user_interface.o                        2'422
+    virtual_speed_sensor.o                    526
+    ---------------------------------------------------------------
+    Total:                                 74'864    2'912   31'486
+
+dl7M_tlf.a: [2]
+    exit.o                                      4
+    low_level_init.o                            4
+    ---------------------------------------------------------------
+    Total:                                      8
+
+m7M_tls.a: [3]
+    DblAdd.o                                  378
+    DblCmpEq.o                                 32
+    DblCmpGe.o                                 46
+    DblCmpLe.o                                 46
+    DblDiv.o                                  582
+    DblMul.o                                  418
+    DblSub.o                                  226
+    DblToFlt.o                                104
+    DblToS32.o                                 58
+    DblToU32.o                                 40
+    FltToDbl.o                                 72
+    S32ToDbl.o                                 34
+    U32ToDbl.o                                 26
+    cos_sin64.o                             1'060
+    exp64.o                                    68
+    fpinit_M.o                                 34
+    frexp.o                                   112
+    iar_Exp64.o                               940
+    ldexp.o                                   314
+    math_wrappers64.o                          46
+    pow64.o                                 1'732    1'056
+    sqrt.o                                    258
+    ---------------------------------------------------------------
+    Total:                                  6'626    1'056
+
+rt7M_tl.a: [4]
+    ABImemclr.o                                 6
+    ABImemclr4.o                                6
+    ABImemcpy.o                               134
+    ABImemset.o                               102
+    ABImemset48.o                              58
+    I64DivMod.o                               560
+    I64DivZer.o                                 2
+    cexit.o                                    10
+    cmain.o                                    30
+    cstartup_M.o                               12
+    data_init.o                                40
+    lz77_init_single.o                        120
+    memset.o                                   20
+    zero_init3.o                               58
+    ---------------------------------------------------------------
+    Total:                                  1'158
+
+shb_l.a: [5]
+    exit.o                                     20
+    ---------------------------------------------------------------
+    Total:                                     20
+
+    Gaps                                       78        6        1
+    Linker created                                      32    4'096
+-------------------------------------------------------------------
+    Grand Total:                           82'754    4'006   35'583
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x801'4c84           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x801'4ca4           --   Gb  - Linker created -
+?main                    0x801'4ce5          Code  Gb  cmain.o [4]
+ADC1_2_IRQHandler        0x801'43a1     0xc  Code  Gb  stm32g4xx_mc_it.o [1]
+AHBPrescTable            0x801'4cd4    0x10  Data  Gb  system_stm32g4xx.o [1]
+AHI_DECT_E              0x2000'047b     0x1  Data  Gb  EventDetection.o [1]
+AHI_DECT_S              0x2000'047a     0x1  Data  Gb  EventDetection.o [1]
+AHI_info                0x2000'0458    0x20  Data  Gb  EventDetection.o [1]
+AHItimeout              0x2000'0488     0x2  Data  Gb  EventDetection.o [1]
+APBPrescTable            0x801'4db8     0x8  Data  Gb  system_stm32g4xx.o [1]
+AUTO_S                  0x2000'0000     0x1  Data  Gb  AutoMode.o [1]
+Aovertime               0x2000'04a0     0x4  Data  Gb  EventDetection.o [1]
+ApneaAscendPressureTimes
+                        0x2000'001c     0x4  Data  Gb  AutoMode.o [1]
+ApneaBaseline           0x2000'007c     0x4  Data  Gb  BreathTask.o [1]
+ApneaBreathCompare      0x2000'0484     0x2  Data  Gb  EventDetection.o [1]
+ApneaDetectionV2         0x800'a915    0x5c  Code  Gb  BreathTask.o [1]
+ApneaDiff               0x2000'0078     0x4  Data  Gb  BreathTask.o [1]
+Appli_state             0x2000'7acc     0x1  Data  Gb  app_fatfs.o [1]
+AutoModeTaskInit         0x800'e299    0x18  Code  Gb  AutoMode.o [1]
+AutoModeTaskProcess      0x800'e2b5   0x270  Code  Gb  AutoMode.o [1]
+BaselineCal_State       0x2000'04cc     0x1  Data  Gb  FlowProcess.o [1]
+BaselineCalculation      0x800'c9a5    0xcc  Code  Gb  FlowProcess.o [1]
+BaselineEstimation       0x800'c96d    0x36  Code  Gb  FlowProcess.o [1]
+Boosting                0x2000'0001     0x1  Data  Gb  AutoMode.o [1]
+BreathAmplitude         0x2000'04d2     0x2  Data  Gb  FlowProcess.o [1]
+BreathBaseline          0x2000'04e0     0x4  Data  Gb  FlowProcess.o [1]
+BreathCounter           0x2000'04f0     0x4  Data  Gb  FlowProcess.o [1]
+BreathFrequency         0x2000'04d4     0x2  Data  Gb  FlowProcess.o [1]
+BreathPhase             0x2000'04ce     0x1  Data  Gb  FlowProcess.o [1]
+BreathStatus            0x2000'047c     0x1  Data  Gb  EventDetection.o [1]
+BreathTaskInit           0x800'a8dd    0x36  Code  Gb  BreathTask.o [1]
+BreathTaskProcess        0x800'aa41    0x54  Code  Gb  BreathTask.o [1]
+BreathTemplate          0x2000'0418     0x2  Data  Gb  DynamicTemplate.o [1]
+Breath_Start_Amp        0x2000'006c     0x4  Data  Gb  BreathTask.o [1]
+CDC_Control_FS           0x801'4beb     0x4  Code  Lc  usbd_cdc_if.o [1]
+CDC_DeInit_FS            0x801'4be7     0x4  Code  Lc  usbd_cdc_if.o [1]
+CDC_Desc                0x2000'19bc    0x20  Data  Gb  usbd_desc.o [1]
+CDC_Init_FS              0x801'4bc5    0x22  Code  Lc  usbd_cdc_if.o [1]
+CDC_Receive_FS           0x801'4bef    0x16  Code  Lc  usbd_cdc_if.o [1]
+CDC_TransmitCplt_FS      0x801'4c0d     0x4  Code  Lc  usbd_cdc_if.o [1]
+CNT_SAMPLE              0x2000'0410     0x1  Data  Gb  DynamicTemplate.o [1]
+CPAPInit                 0x800'8fcd    0x16  Code  Gb  CPAP.o [1]
+CPAPProcess              0x800'8fe3    0x26  Code  Gb  CPAP.o [1]
+CPAPSetConfig            0x800'8f89    0x44  Code  Gb  CPAP.o [1]
+CSTACK$$Base            0x2000'7b08           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'8b08           --   Gb  - Linker created -
+CheckPhaseV3             0x800'cb01    0xd0  Code  Gb  FlowProcess.o [1]
+CheckPhase_State        0x2000'04cd     0x1  Data  Gb  FlowProcess.o [1]
+CircleLimitationM1      0x2000'09b8    0xb4  Data  Gb  mc_config.o [1]
+Circle_Limitation        0x801'3fb5    0x56  Code  Wk  circle_limitation.o [1]
+Count_Apnea             0x2000'048a     0x2  Data  Gb  EventDetection.o [1]
+Count_FlowLimitaiton    0x2000'048e     0x2  Data  Gb  EventDetection.o [1]
+Count_Hypopnea          0x2000'048c     0x2  Data  Gb  EventDetection.o [1]
+Curr_Count_state        0x2000'0490     0x4  Data  Gb  EventDetection.o [1]
+DP_convert_raw_to_LPM    0x800'92a9    0xba  Code  Gb  sensor_flow.o [1]
+DP_convert_raw_to_Pa     0x800'9365    0x12  Code  Gb  sensor_flow.o [1]
+DP_get_error             0x800'91c9     0x6  Code  Gb  sensor_flow.o [1]
+DP_get_value             0x800'91cf     0x8  Code  Gb  sensor_flow.o [1]
+DP_master_rx_cplt_callback
+                         0x800'9213    0x94  Code  Gb  sensor_flow.o [1]
+DP_measure_start         0x800'91d7    0x3c  Code  Gb  sensor_flow.o [1]
+Debug_IO_Toggle          0x800'900d     0x8  Code  Gb  debug_io.o [1]
+DescendFlag             0x2000'0005     0x1  Data  Gb  AutoMode.o [1]
+DetectKey                0x800'6071   0x13a  Code  Gb  key_fifo.o [1]
+Differential             0x800'ca71    0x5e  Code  Gb  FlowProcess.o [1]
+Differential::TDL       0x2000'04a8    0x14  Data  Lc  FlowProcess.o [1]
+DynamicPressureCtrl      0x800'e81d    0x1c  Code  Gb  Swing.o [1]
+DynamicTemplateInit      0x800'ce0b    0x3e  Code  Gb  DynamicTemplate.o [1]
+DynamicTemplateV3        0x800'ce49   0x1f0  Code  Gb  DynamicTemplate.o [1]
+DynamicValueAdd         0x2000'04e8     0x4  Data  Gb  FlowProcess.o [1]
+DynamicValueSub         0x2000'04ec     0x4  Data  Gb  FlowProcess.o [1]
+Error_Handler            0x800'44bd     0x4  Code  Gb  main.o [1]
+EstimateLeakP            0x800'e081   0x190  Code  Gb  LeakManagement.o [1]
+EstimateLeakQ            0x800'de0d   0x196  Code  Gb  LeakManagement.o [1]
+EventDetectionTaskInit   0x800'd041    0x28  Code  Gb  EventDetection.o [1]
+EventDetectionTaskProcess
+                         0x800'd069   0x544  Code  Gb  EventDetection.o [1]
+EventStatus             0x2000'0478     0x1  Data  Gb  EventDetection.o [1]
+EventType               0x2000'0479     0x1  Data  Gb  EventDetection.o [1]
+FATFS_LinkDriver         0x800'9e89    0x3c  Code  Gb  ff_gen_drv.o [1]
+FCP_CalcCRC              0x801'4729    0x5c  Code  Wk  frame_communication_protocol.o [1]
+FCP_Init                 0x800'f609    0x2a  Code  Wk  frame_communication_protocol.o [1]
+FCP_SetClient            0x800'f633    0x16  Code  Wk  frame_communication_protocol.o [1]
+FLBreathCompare         0x2000'0486     0x2  Data  Gb  EventDetection.o [1]
+FLDetectionV2            0x800'a971    0xcc  Code  Gb  BreathTask.o [1]
+FLDetectionV2::FLFlow   0x2000'0084   0x384  Data  Lc  BreathTask.o [1]
+FLDetectionV2::FL_Cnt   0x2000'0058     0x1  Data  Lc  BreathTask.o [1]
+FLDetectionV2::FL_NUM   0x2000'0059     0x1  Data  Lc  BreathTask.o [1]
+FLDetectionV2::TriggerPointValue
+                        0x2000'0080     0x4  Data  Lc  BreathTask.o [1]
+FLIndex                 0x2000'0068     0x4  Data  Gb  BreathTask.o [1]
+FL_Segment              0x2000'0054     0x1  Data  Gb  BreathTask.o [1]
+FL_Thre                 0x2000'0498     0x4  Data  Gb  EventDetection.o [1]
+FOCVars                 0x2000'715c    0x28  Data  Gb  mc_tasks.o [1]
+FOT_Counter             0x2000'0bd6     0x2  Data  Gb  PressureTask.o [1]
+FOT_P                   0x2000'0bdc   0x640  Data  Gb  PressureTask.o [1]
+FOT_Q                   0x2000'121c   0x640  Data  Gb  PressureTask.o [1]
+FlowRateInit             0x800'cce3    0x28  Code  Gb  FlowProcess.o [1]
+FlowRateM0              0x2000'7ad4     0x4  Data  Gb  FlowProcess.o [1]
+FlowRateM1              0x2000'7ad8     0x4  Data  Gb  FlowProcess.o [1]
+FlowRateProcess          0x800'cd0b    0x56  Code  Gb  FlowProcess.o [1]
+GP_convert_raw_to_mmh2o
+                         0x800'940d    0x38  Code  Gb  sensor_pressure.o [1]
+GP_get_error             0x800'93a9     0x8  Code  Gb  sensor_pressure.o [1]
+GP_get_value             0x800'93b1     0x6  Code  Gb  sensor_pressure.o [1]
+GP_master_rx_cplt_callback
+                         0x800'93f3    0x18  Code  Gb  sensor_pressure.o [1]
+GP_measure_start         0x800'93b7    0x3c  Code  Gb  sensor_pressure.o [1]
+GetMaxLeakP              0x800'dfa5    0xc4  Code  Gb  LeakManagement.o [1]
+GetTargetRPMByFansLaw    0x800'acbd    0x76  Code  Gb  PressureControl.o [1]
+GetZeroLeakFlow          0x800'ddb1    0x5a  Code  Gb  LeakManagement.o [1]
+HAL_ADCEx_InjectedConfigChannel
+                         0x800'75e5   0x4a2  Code  Gb  stm32g4xx_hal_adc_ex.o [1]
+HAL_ADCEx_MultiModeConfigChannel
+                         0x800'7a89   0x12e  Code  Gb  stm32g4xx_hal_adc_ex.o [1]
+HAL_ADC_ConfigChannel    0x800'7195   0x3f2  Code  Gb  stm32g4xx_hal_adc.o [1]
+HAL_ADC_Init             0x800'6f31   0x242  Code  Gb  stm32g4xx_hal_adc.o [1]
+HAL_ADC_MspInit          0x800'1115    0xe2  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_COMP_Init            0x800'7bfd   0x218  Code  Gb  stm32g4xx_hal_comp.o [1]
+HAL_COMP_MspInit         0x800'11f7    0xae  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_CORDIC_Init          0x800'5ee9    0x36  Code  Gb  stm32g4xx_hal_cordic.o [1]
+HAL_CORDIC_MspInit       0x800'12a5    0x26  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_DMA_Abort_IT         0x800'1915    0x7a  Code  Gb  stm32g4xx_hal_dma.o [1]
+HAL_DMA_GetState         0x800'198f     0x6  Code  Gb  stm32g4xx_hal_dma.o [1]
+HAL_GPIO_DeInit          0x800'1c45    0xf2  Code  Gb  stm32g4xx_hal_gpio.o [1]
+HAL_GPIO_Init            0x800'1a95   0x1b0  Code  Gb  stm32g4xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin       0x800'1d41    0x10  Code  Gb  stm32g4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'1d37     0xa  Code  Gb  stm32g4xx_hal_gpio.o [1]
+HAL_GetTick              0x800'1829     0xc  Code  Wk  stm32g4xx_hal.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                         0x800'7e41    0x62  Code  Gb  stm32g4xx_hal_i2c_ex.o [1]
+HAL_I2CEx_ConfigDigitalFilter
+                         0x800'7ea3    0x5a  Code  Gb  stm32g4xx_hal_i2c_ex.o [1]
+HAL_I2C_DeInit           0x800'0289    0x34  Code  Gb  stm32g4xx_hal_i2c.o [1]
+HAL_I2C_EV_IRQHandler    0x800'0561    0x10  Code  Gb  stm32g4xx_hal_i2c.o [1]
+HAL_I2C_Init             0x800'01d9    0xb0  Code  Gb  stm32g4xx_hal_i2c.o [1]
+HAL_I2C_MasterRxCpltCallback
+                         0x800'1889     0xc  Code  Gb  stm32g4xx_it.o [1]
+HAL_I2C_Master_Receive_IT
+                         0x800'0495    0xa8  Code  Gb  stm32g4xx_hal_i2c.o [1]
+HAL_I2C_Master_Transmit
+                         0x800'02bd   0x1d8  Code  Gb  stm32g4xx_hal_i2c.o [1]
+HAL_I2C_MspDeInit        0x800'13b9    0x68  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_I2C_MspInit          0x800'12cb    0xee  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_IncTick              0x800'9189    0x10  Code  Wk  stm32g4xx_hal.o [1]
+HAL_Init                 0x800'5ec9    0x1e  Code  Gb  stm32g4xx_hal.o [1]
+HAL_InitTick             0x800'9715    0x7e  Code  Gb  stm32g4xx_hal_timebase_tim.o [1]
+HAL_MspInit              0x800'10dd    0x38  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_NVIC_DisableIRQ      0x800'1a23    0x1e  Code  Gb  stm32g4xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ       0x800'1a0d    0x16  Code  Gb  stm32g4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'19b3    0x5a  Code  Gb  stm32g4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'1999    0x1a  Code  Gb  stm32g4xx_hal_cortex.o [1]
+HAL_OPAMP_Init           0x800'7efd    0xee  Code  Gb  stm32g4xx_hal_opamp.o [1]
+HAL_OPAMP_MspInit        0x800'1421    0xa4  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_PCDEx_ActivateLPM    0x800'5e81    0x2a  Code  Gb  stm32g4xx_hal_pcd_ex.o [1]
+HAL_PCDEx_LPM_Callback   0x800'511b    0x42  Code  Gb  usbd_conf.o [1]
+HAL_PCDEx_PMAConfig      0x800'5e41    0x40  Code  Gb  stm32g4xx_hal_pcd_ex.o [1]
+HAL_PCD_DataInStageCallback
+                         0x800'4f05    0x12  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DataOutStageCallback
+                         0x800'4ef1    0x14  Code  Gb  usbd_conf.o [1]
+HAL_PCD_EP_Close         0x800'2843    0x48  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_EP_ClrStall      0x800'296b    0x5a  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_EP_GetRxCount    0x800'28c1    0x12  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_EP_Open          0x800'27e5    0x5e  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_EP_Receive       0x800'288b    0x36  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_EP_SetStall      0x800'290d    0x5e  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_EP_Transmit      0x800'28d3    0x3a  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_IRQHandler       0x800'1f0d   0x8b0  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_Init             0x800'1d71   0x172  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_MspInit          0x800'4ead    0x38  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ResetCallback    0x800'4f1f    0x24  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ResumeCallback   0x800'4f5f    0x22  Code  Gb  usbd_conf.o [1]
+HAL_PCD_SOFCallback      0x800'4f17     0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_SetAddress       0x800'27bd    0x28  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_SetupStageCallback
+                         0x800'4ee5     0xc  Code  Gb  usbd_conf.o [1]
+HAL_PCD_Start            0x800'1ee3    0x2a  Code  Gb  stm32g4xx_hal_pcd.o [1]
+HAL_PCD_SuspendCallback
+                         0x800'4f43    0x1c  Code  Gb  usbd_conf.o [1]
+HAL_PWREx_ControlVoltageScaling
+                         0x800'6459    0xc2  Code  Gb  stm32g4xx_hal_pwr_ex.o [1]
+HAL_PWR_EnableBkUpAccess
+                         0x800'6529     0xc  Code  Gb  stm32g4xx_hal_pwr.o [1]
+HAL_QSPI_Command         0x800'4859    0xb4  Code  Gb  stm32g4xx_hal_qspi.o [1]
+HAL_QSPI_IRQHandler      0x800'463d   0x21c  Code  Gb  stm32g4xx_hal_qspi.o [1]
+HAL_QSPI_Init            0x800'4561    0xd4  Code  Gb  stm32g4xx_hal_qspi.o [1]
+HAL_QSPI_MspInit         0x800'14c5    0xd6  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_QSPI_Receive         0x800'49fd    0xfc  Code  Gb  stm32g4xx_hal_qspi.o [1]
+HAL_QSPI_Transmit        0x800'490d    0xee  Code  Gb  stm32g4xx_hal_qspi.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'6c49   0x2b8  Code  Gb  stm32g4xx_hal_rcc_ex.o [1]
+HAL_RCC_ADC12_CLK_ENABLED
+                        0x2000'7afc     0x4  Data  Lc  stm32g4xx_hal_msp.o [1]
+HAL_RCC_ClockConfig      0x800'697d   0x1b8  Code  Gb  stm32g4xx_hal_rcc.o [1]
+HAL_RCC_EnableCSS        0x800'6c07     0xc  Code  Gb  stm32g4xx_hal_rcc.o [1]
+HAL_RCC_GetClockConfig   0x800'6bc9    0x3e  Code  Gb  stm32g4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq      0x800'6b93     0x6  Code  Gb  stm32g4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq     0x800'6b99    0x18  Code  Gb  stm32g4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq     0x800'6bb1    0x18  Code  Gb  stm32g4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'6b35    0x5e  Code  Gb  stm32g4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'6539   0x444  Code  Gb  stm32g4xx_hal_rcc.o [1]
+HAL_RTCEx_BKUPRead       0x800'83db     0xa  Code  Gb  stm32g4xx_hal_rtc_ex.o [1]
+HAL_RTCEx_BKUPWrite      0x800'83d1     0xa  Code  Gb  stm32g4xx_hal_rtc_ex.o [1]
+HAL_RTC_GetDate          0x800'8251    0x62  Code  Gb  stm32g4xx_hal_rtc.o [1]
+HAL_RTC_GetTime          0x800'8145    0x6a  Code  Gb  stm32g4xx_hal_rtc.o [1]
+HAL_RTC_Init             0x800'7ff5    0x8e  Code  Gb  stm32g4xx_hal_rtc.o [1]
+HAL_RTC_MspInit          0x800'159b    0x14  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_RTC_SetDate          0x800'81af    0xa2  Code  Gb  stm32g4xx_hal_rtc.o [1]
+HAL_RTC_SetTime          0x800'8085    0xc0  Code  Gb  stm32g4xx_hal_rtc.o [1]
+HAL_SYSTICK_Config       0x800'1a41    0x22  Code  Gb  stm32g4xx_hal_cortex.o [1]
+HAL_TIMEx_Break2Callback
+                         0x800'5eb5     0x2  Code  Wk  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIMEx_BreakCallback
+                         0x800'5eb3     0x2  Code  Wk  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIMEx_CommutCallback
+                         0x800'5eb9     0x2  Code  Wk  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIMEx_ConfigBreakDeadTime
+                         0x800'850b    0xb8  Code  Gb  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIMEx_ConfigBreakInput
+                         0x800'85c3    0xec  Code  Gb  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIMEx_DirectionChangeCallback
+                         0x800'5ebd     0x2  Code  Wk  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIMEx_EncoderIndexCallback
+                         0x800'5ebb     0x2  Code  Wk  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIMEx_IndexErrorCallback
+                         0x800'5ebf     0x2  Code  Wk  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'8475    0x96  Code  Gb  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIMEx_TransitionErrorCallback
+                         0x800'5ec1     0x2  Code  Wk  stm32g4xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init        0x800'29c5    0x60  Code  Gb  stm32g4xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit     0x800'15af    0x94  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_TIM_Base_Start_IT    0x800'2a25    0x7c  Code  Gb  stm32g4xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                         0x800'3033   0x1a2  Code  Gb  stm32g4xx_hal_tim.o [1]
+HAL_TIM_IRQHandler       0x800'2d4d   0x1cc  Code  Gb  stm32g4xx_hal_tim.o [1]
+HAL_TIM_MspPostInit      0x800'1643    0xda  Code  Gb  stm32g4xx_hal_msp.o [1]
+HAL_TIM_PWM_ConfigChannel
+                         0x800'2f1d   0x116  Code  Gb  stm32g4xx_hal_tim.o [1]
+HAL_TIM_PWM_Init         0x800'2ac1    0x60  Code  Gb  stm32g4xx_hal_tim.o [1]
+HAL_TIM_PWM_Start        0x800'2b21   0x12e  Code  Gb  stm32g4xx_hal_tim.o [1]
+HAL_TIM_PWM_Stop         0x800'2c4f    0xd4  Code  Gb  stm32g4xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                         0x800'43e3    0x1c  Code  Gb  main.o [1]
+HAL_TIM_SlaveConfigSynchro
+                         0x800'31d7    0x56  Code  Gb  stm32g4xx_hal_tim.o [1]
+HAL_UARTEx_DisableFifoMode
+                         0x800'8cc5    0x40  Code  Gb  stm32g4xx_hal_uart_ex.o [1]
+HAL_UARTEx_SetRxFifoThreshold
+                         0x800'8d8d    0x88  Code  Gb  stm32g4xx_hal_uart_ex.o [1]
+HAL_UARTEx_SetTxFifoThreshold
+                         0x800'8d05    0x88  Code  Gb  stm32g4xx_hal_uart_ex.o [1]
+HAL_UART_Init            0x800'87cd    0x68  Code  Gb  stm32g4xx_hal_uart.o [1]
+HAL_UART_MspInit         0x800'171d    0xa0  Code  Gb  stm32g4xx_hal_msp.o [1]
+HardFault_Handler        0x801'4449    0x60  Code  Gb  stm32g4xx_mc_it.o [1]
+HyponeaBreathCompare    0x2000'0482     0x2  Data  Gb  EventDetection.o [1]
+I2C3_EV_IRQHandler       0x800'187d     0x6  Code  Gb  stm32g4xx_it.o [1]
+I2C4_EV_IRQHandler       0x800'1877     0x6  Code  Gb  stm32g4xx_it.o [1]
+I2C_DMAAbort             0x800'1005    0x14  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_Flush_TXDR           0x800'0fdd    0x1c  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_ITAddrCplt           0x800'0a25    0x96  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_ITError              0x800'0ea7   0x110  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_ITListenCplt         0x800'0e49    0x5e  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_ITMasterCplt         0x800'0bd7   0x12c  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_ITMasterSeqCplt      0x800'0abb    0x76  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_ITSlaveCplt          0x800'0d03   0x146  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_ITSlaveSeqCplt       0x800'0b31    0xa6  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                         0x800'1063    0x6e  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_Master_ISR_DMA       0x800'07dd   0x14c  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_Master_ISR_IT        0x800'0571   0x148  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_Slave_ISR_DMA        0x800'0929    0xfc  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_Slave_ISR_IT         0x800'06b9   0x124  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_TreatErrorCallback   0x800'0fb7    0x26  Code  Lc  stm32g4xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                         0x800'1019    0x4a  Code  Lc  stm32g4xx_hal_i2c.o [1]
+IgnoreSnoringCnt        0x2000'005a     0x2  Data  Gb  BreathTask.o [1]
+KeyHardInit              0x800'6019    0x58  Code  Gb  key_fifo.o [1]
+KeyInit                  0x800'5fc9    0x10  Code  Gb  key_fifo.o [1]
+KeyScan10ms              0x800'61ab    0x50  Code  Gb  key_fifo.o [1]
+KeyVarInit               0x800'5fd9    0x40  Code  Gb  key_fifo.o [1]
+LL_ADC_SetChannelSamplingTime
+                         0x800'6f09    0x28  Code  Lc  stm32g4xx_hal_adc.o [1]
+LL_ADC_SetChannelSamplingTime
+                         0x800'75bd    0x28  Code  Lc  stm32g4xx_hal_adc_ex.o [1]
+LL_GPIO_Init             0x800'86d1    0xfa  Code  Gb  stm32g4xx_ll_gpio.o [1]
+LeakBaseline            0x2000'04d8     0x4  Data  Gb  FlowProcess.o [1]
+LeakFlowBaselineCalibration
+                        0x2000'0408     0x8  Data  Gb  BreathTask.o [1]
+LeakManagementInit       0x800'dd81    0x30  Code  Gb  LeakManagement.o [1]
+LeakManagementTask       0x800'e261    0x36  Code  Gb  LeakManagement.o [1]
+LocalMax                0x2000'041c     0x2  Data  Gb  DynamicTemplate.o [1]
+LowPassFilter            0x800'c82d    0xe6  Code  Gb  FlowProcess.o [1]
+LowPassFilter::w        0x2000'7944    0x30  Data  Lc  FlowProcess.o [1]
+MAX_Flow                0x2000'1888     0x4  Data  Gb  Swing.o [1]
+MAX_OVERSTIMATE         0x2000'041e     0x2  Data  Gb  DynamicTemplate.o [1]
+MCI_Clear_Iqdref         0x801'3155    0x10  Code  Wk  mc_interface.o [1]
+MCI_EncoderAlign         0x801'314d     0x8  Code  Wk  mc_interface.o [1]
+MCI_ExecBufferedCommands
+                         0x801'155d    0x6a  Code  Wk  mc_interface.o [1]
+MCI_ExecSpeedRamp        0x800'c229     0xe  Code  Wk  mc_interface.o [1]
+MCI_ExecTorqueRamp       0x801'2f93    0x12  Code  Wk  mc_interface.o [1]
+MCI_FaultAcknowledged    0x800'c7d7     0x6  Code  Wk  mc_interface.o [1]
+MCI_GetAvrgMecSpeedUnit
+                         0x800'c819    0x14  Code  Wk  mc_interface.o [1]
+MCI_GetControlMode       0x801'3063     0x4  Code  Wk  mc_interface.o [1]
+MCI_GetCurrentFaults     0x800'c7f9    0x10  Code  Wk  mc_interface.o [1]
+MCI_GetIab               0x801'3105     0xe  Code  Wk  mc_interface.o [1]
+MCI_GetIalphabeta        0x801'3113     0xe  Code  Wk  mc_interface.o [1]
+MCI_GetImposedMotorDirection
+                         0x801'0f51    0x2e  Code  Wk  mc_interface.o [1]
+MCI_GetIqd               0x801'30f1     0xe  Code  Wk  mc_interface.o [1]
+MCI_GetIqdref            0x801'2fab     0xe  Code  Wk  mc_interface.o [1]
+MCI_GetLastRampFinalSpeed
+                         0x801'3067    0x10  Code  Wk  mc_interface.o [1]
+MCI_GetMecSpeedRefUnit   0x801'2fa5     0x6  Code  Wk  mc_interface.o [1]
+MCI_GetOccurredFaults    0x800'c809    0x10  Code  Wk  mc_interface.o [1]
+MCI_GetSTMState          0x801'3141     0x6  Code  Wk  mc_interface.o [1]
+MCI_GetTeref             0x801'2f8b     0x8  Code  Wk  mc_interface.o [1]
+MCI_GetValphabeta        0x801'3131    0x10  Code  Wk  mc_interface.o [1]
+MCI_GetVqd               0x801'3121    0x10  Code  Wk  mc_interface.o [1]
+MCI_Init                 0x800'c20f    0x14  Code  Wk  mc_interface.o [1]
+MCI_SetCurrentReferences
+                         0x801'2fb9    0x1e  Code  Wk  mc_interface.o [1]
+MCI_SetIdref             0x801'3031     0x8  Code  Wk  mc_interface.o [1]
+MCI_StartMotor           0x800'c7dd    0x14  Code  Wk  mc_interface.o [1]
+MCI_StopMotor            0x800'c7f1     0x8  Code  Wk  mc_interface.o [1]
+MCI_StopRamp             0x801'3147     0x6  Code  Wk  mc_interface.o [1]
+MCM_Clarke               0x801'3f6d    0x48  Code  Wk  mc_math.o [1]
+MCM_Park                 0x801'142d    0x68  Code  Wk  mc_math.o [1]
+MCM_Rev_Park             0x801'400b    0x3e  Code  Wk  mc_math.o [1]
+MCM_Trig_Functions       0x801'19e5    0x20  Code  Wk  mc_math.o [1]
+MCP_Init                 0x800'c285    0x44  Code  Wk  motor_control_protocol.o [1]
+MCP_UI_Params           0x2000'7230    0xb0  Data  Gb  ui_task.o [1]
+MCT                     0x2000'7184    0x54  Data  Gb  mc_tasks.o [1]
+MC_AcknowledgeFaultMotor1
+                         0x800'a895     0xc  Code  Wk  mc_api.o [1]
+MC_GetCurrentFaultsMotor1
+                         0x800'a8b9     0xc  Code  Wk  mc_api.o [1]
+MC_GetMecSpeedAverageMotor1
+                         0x800'a8d1     0xc  Code  Wk  mc_api.o [1]
+MC_GetOccurredFaultsMotor1
+                         0x800'a8c5     0xc  Code  Wk  mc_api.o [1]
+MC_ProgramSpeedRampMotor1
+                         0x800'a885    0x10  Code  Wk  mc_api.o [1]
+MC_Scheduler             0x800'f519    0x50  Code  Wk  mc_tasks.o [1]
+MC_StartMotor1           0x800'a8a1     0xc  Code  Wk  mc_api.o [1]
+MC_StopMotor1            0x800'a8ad     0xc  Code  Wk  mc_api.o [1]
+MCboot                   0x800'97a9   0x1c8  Code  Wk  mc_tasks.o [1]
+MPInfo                  0x2000'7ae4     0x8  Data  Gb  motor_control_protocol.o [1]
+MPM_CalcElMotorPower     0x801'17c5    0x5e  Code  Wk  motor_power_measurement.o [1]
+MPM_Clear                0x801'088f    0x18  Code  Wk  motor_power_measurement.o [1]
+MPM_GetAvrgElMotorPowerW
+                         0x801'30e1     0x6  Code  Wk  motor_power_measurement.o [1]
+MX_ADC1_Init             0x800'3ae3   0x11a  Code  Gb  main.o [1]
+MX_ADC2_Init             0x800'3bfd    0x92  Code  Gb  main.o [1]
+MX_COMP1_Init            0x800'3c8f    0x2e  Code  Gb  main.o [1]
+MX_COMP2_Init            0x800'3cbd    0x2e  Code  Gb  main.o [1]
+MX_COMP4_Init            0x800'3ceb    0x2e  Code  Gb  main.o [1]
+MX_FATFS_Init            0x800'5fa5    0x1c  Code  Gb  app_fatfs.o [1]
+MX_I2C3_Init             0x800'3d19    0x4e  Code  Gb  main.o [1]
+MX_I2C4_Init             0x800'3d67    0x4e  Code  Gb  main.o [1]
+MX_MotorControl_Init     0x800'5f21    0x30  Code  Wk  motorcontrol.o [1]
+MX_OPAMP1_Init           0x800'3db5    0x3a  Code  Gb  main.o [1]
+MX_OPAMP2_Init           0x800'3def    0x3a  Code  Gb  main.o [1]
+MX_QUADSPI1_Init         0x800'3e29    0x3c  Code  Gb  main.o [1]
+MX_RTC_Init              0x800'3e65    0x60  Code  Gb  main.o [1]
+MX_TIM1_Init             0x800'3ec5   0x180  Code  Gb  main.o [1]
+MX_TIM2_Init             0x800'4045    0xbc  Code  Gb  main.o [1]
+MX_TIM4_Init             0x800'4101    0xbc  Code  Gb  main.o [1]
+MX_TIM7_Init             0x800'41bd    0x4a  Code  Gb  main.o [1]
+MX_UCPD1_Init            0x800'4207    0x62  Code  Gb  main.o [1]
+MX_USART1_UART_Init      0x800'4269    0x5a  Code  Gb  main.o [1]
+MX_USART2_UART_Init      0x800'42c3    0x5a  Code  Gb  main.o [1]
+MX_USB_Device_Init       0x800'5f51    0x54  Code  Gb  usb_device.o [1]
+MaskFlow                0x2000'04d0     0x2  Data  Gb  FlowProcess.o [1]
+Mci                     0x2000'7214    0x1c  Data  Gb  mc_tasks.o [1]
+MedianFilter             0x800'cd7d    0x8e  Code  Gb  DynamicTemplate.o [1]
+NTC_CalcAvTemp           0x801'0781    0x3c  Code  Wk  ntc_temperature_sensor.o [1]
+NTC_GetAvTemp_C          0x801'303d    0x26  Code  Wk  ntc_temperature_sensor.o [1]
+NTC_Init                 0x800'c117    0x26  Code  Wk  ntc_temperature_sensor.o [1]
+NTC_table                0x801'3650   0x400  Data  Gb  regular_adc.o [1]
+NoBreathAmplitude       0x2000'04f8     0x4  Data  Gb  FlowProcess.o [1]
+NoBreathCnt             0x2000'04f4     0x4  Data  Gb  FlowProcess.o [1]
+NormalBreathCompare     0x2000'0480     0x2  Data  Gb  EventDetection.o [1]
+NormalSnoringSum        0x2000'0074     0x4  Data  Gb  BreathTask.o [1]
+NotchFilter              0x800'c915    0x56  Code  Gb  FlowProcess.o [1]
+NotchFilter::NotchBuffer
+                        0x2000'7a24    0x18  Data  Lc  FlowProcess.o [1]
+OVERESTIMATE            0x2000'0412     0x1  Data  Gb  DynamicTemplate.o [1]
+PIDIdHandle_M1          0x2000'0688    0x2c  Data  Gb  mc_config.o [1]
+PIDIqHandle_M1          0x2000'065c    0x2c  Data  Gb  mc_config.o [1]
+PIDSpeedHandle_M1       0x2000'0630    0x2c  Data  Gb  mc_config.o [1]
+PID_GetKD                0x801'3087     0x6  Code  Wk  pid_regulator.o [1]
+PID_GetKI                0x801'3081     0x6  Code  Wk  pid_regulator.o [1]
+PID_GetKIDivisor         0x801'151f     0x4  Code  Wk  pid_regulator.o [1]
+PID_GetKP                0x801'307b     0x6  Code  Wk  pid_regulator.o [1]
+PID_GetKPDivisor         0x801'3077     0x4  Code  Wk  pid_regulator.o [1]
+PID_HandleInit           0x800'bfc9    0x14  Code  Wk  pid_regulator.o [1]
+PID_SetIntegralTerm      0x800'f4ff     0x4  Code  Wk  pid_regulator.o [1]
+PID_SetKD                0x801'2fdf     0x4  Code  Wk  pid_regulator.o [1]
+PID_SetKI                0x801'2fdb     0x4  Code  Wk  pid_regulator.o [1]
+PID_SetKP                0x801'2fd7     0x4  Code  Wk  pid_regulator.o [1]
+PI_Controller            0x801'1965    0x80  Code  Wk  pid_regulator.o [1]
+PQD_CalcElMotorPower     0x801'0ed9    0x78  Code  Wk  pqd_motor_power_measurement.o [1]
+PQD_MotorPowMeasM1      0x2000'051c   0x114  Data  Gb  mc_config.o [1]
+PQ_Curve                0x2000'0034    0x20  Data  Gb  BreathTask.o [1]
+PVA_CONTROL              0x800'e61d   0x200  Code  Gb  Swing.o [1]
+PVA_CONTROL::CycleCounter
+                        0x2000'188c     0x4  Data  Lc  Swing.o [1]
+PVA_CONTROL::TriggerCounter
+                        0x2000'1890     0x4  Data  Lc  Swing.o [1]
+PVA_Status              0x2000'187c     0x1  Data  Gb  Swing.o [1]
+PV_State                0x2000'04cf     0x1  Data  Gb  FlowProcess.o [1]
+PWMC_CheckOverCurrent    0x801'07bd     0x4  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_CurrentReadingCalibr
+                         0x801'100d    0x40  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_GetPhaseCurrents    0x801'3f69     0x4  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_SetPhaseVoltage     0x801'3c3f   0x1b8  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_SwitchOffPWM        0x800'f513     0x4  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_SwitchOnPWM         0x801'1961     0x4  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_TurnOnLowSides      0x801'195d     0x4  Code  Wk  pwm_curr_fdbk.o [1]
+PWM_Handle_M1           0x2000'0760    0x7c  Data  Gb  mc_config.o [1]
+PeakValleyDetectionV3    0x800'cbe9    0xfa  Code  Gb  FlowProcess.o [1]
+PeakValleyDetectionV3::PeakValue
+                        0x2000'0500     0x4  Data  Lc  FlowProcess.o [1]
+PendSV_Handler           0x800'f685          Code  Gb  portasm.o [1]
+PrepareAscendPressure   0x2000'0003     0x1  Data  Gb  AutoMode.o [1]
+PressureAscend05Counter
+                        0x2000'0020     0x4  Data  Gb  AutoMode.o [1]
+PressureCtrl             0x800'ad8d    0x2e  Code  Gb  PressureControl.o [1]
+PressureTaskInit         0x800'aac9    0x3e  Code  Gb  PressureTask.o [1]
+PressureTaskProcessOfTreatment
+                         0x800'ab09   0x178  Code  Gb  PressureTask.o [1]
+PrevBreathStatus        0x2000'0002     0x1  Data  Gb  AutoMode.o [1]
+PrevTargetPressure      0x2000'0030     0x4  Data  Gb  AutoMode.o [1]
+Prev_Count_state        0x2000'0494     0x4  Data  Gb  EventDetection.o [1]
+QSPI_Config              0x800'4b2f   0x148  Code  Lc  stm32g4xx_hal_qspi.o [1]
+QSPI_DMAAbortCplt        0x800'4af9    0x36  Code  Lc  stm32g4xx_hal_qspi.o [1]
+QSPI_Transmit            0x801'1a3d    0x22  Code  Gb  bsp_w25q64.o [1]
+QUADSPI_IRQHandler       0x800'1883     0x6  Code  Gb  stm32g4xx_it.o [1]
+R3_2_ADCxInit            0x800'ec2d    0xf6  Code  Lc  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_BRK2_IRQHandler     0x801'455b    0x34  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_BRK_IRQHandler      0x801'4541    0x1a  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_CurrentReadingPolarization
+                         0x800'f27d   0x148  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_GetPhaseCurrents    0x801'4809   0x104  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_HFCurrentsPolarizationAB
+                         0x800'edb5    0x48  Code  Lc  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_HFCurrentsPolarizationC
+                         0x800'edfd    0x40  Code  Lc  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_Init                0x800'bcc9   0x290  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_IsOverCurrentOccurred
+                         0x801'4c11    0x28  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_ParamsM1            0x801'490c    0xc4  Data  Gb  mc_parameters.o [1]
+R3_2_RLDetectionModeDisable
+                         0x800'efbf    0xdc  Code  Gb  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_RLDetectionModeEnable
+                         0x800'ef07    0xb8  Code  Gb  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_RLDetectionModeSetDuty
+                         0x800'f09b    0x72  Code  Gb  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_RLGetPhaseCurrents
+                         0x800'f10d    0x3c  Code  Lc  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_RLSwitchOnPWM       0x800'f195    0xa6  Code  Lc  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_RLTurnOnLowSides    0x800'f149    0x4a  Code  Lc  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_SetADCSampPointPolarization
+                         0x800'ed23    0x12  Code  Gb  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_SetADCSampPointSectX
+                         0x800'ed35    0x58  Code  Gb  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_SetAOReferenceVoltage
+                         0x800'ee3d    0xca  Code  Lc  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_SwitchOffPWM        0x801'04f5    0x60  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_SwitchOnPWM         0x801'0401    0xa6  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_TIMx_UP_IRQHandler
+                         0x801'44b5    0x8c  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_TurnOnLowSides      0x800'18bf    0x56  Code  Wk  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_2_WriteTIMRegisters   0x800'ed8d    0x28  Code  Lc  r3_2_g4xx_pwm_curr_fdbk.o [1]
+R3_3_OPAMPParamsM1       0x801'31c4    0x6c  Data  Gb  mc_parameters.o [1]
+RCM_CB_array            0x2000'7630    0x20  Data  Gb  regular_conversion_manager.o [1]
+RCM_ExecNextConv         0x800'b0b3    0x76  Code  Gb  regular_conversion_manager.o [1]
+RCM_ExecRegularConv      0x800'af29   0x11a  Code  Gb  regular_conversion_manager.o [1]
+RCM_ExecUserConv         0x800'b05b    0x50  Code  Gb  regular_conversion_manager.o [1]
+RCM_GetUserConvState     0x800'b0ab     0x8  Code  Gb  regular_conversion_manager.o [1]
+RCM_NoInj_array         0x2000'7618    0x18  Data  Gb  regular_conversion_manager.o [1]
+RCM_ReadOngoingConv      0x800'b129    0x34  Code  Gb  regular_conversion_manager.o [1]
+RCM_RegisterRegConv      0x800'aded   0x13c  Code  Gb  regular_conversion_manager.o [1]
+RCM_RegisterRegConv_WithCB
+                         0x800'adcd    0x20  Code  Gb  regular_conversion_manager.o [1]
+RCM_RequestUserConv      0x800'b043    0x18  Code  Gb  regular_conversion_manager.o [1]
+RCM_UserConvHandle      0x2000'7651     0x1  Data  Gb  regular_conversion_manager.o [1]
+RCM_UserConvState       0x2000'7652     0x1  Data  Gb  regular_conversion_manager.o [1]
+RCM_UserConvValue       0x2000'7654     0x2  Data  Gb  regular_conversion_manager.o [1]
+RCM_currentHandle       0x2000'7650     0x1  Data  Gb  regular_conversion_manager.o [1]
+RCM_handle_array        0x2000'7658    0x10  Data  Gb  regular_conversion_manager.o [1]
+REMNG_Calc               0x800'c14d    0x26  Code  Wk  ramp_ext_mngr.o [1]
+REMNG_ExecRamp           0x801'1495    0x84  Code  Wk  ramp_ext_mngr.o [1]
+REMNG_Init               0x800'c13d    0x10  Code  Gb  ramp_ext_mngr.o [1]
+REMNG_RampCompleted      0x801'3f51     0xc  Code  Wk  ramp_ext_mngr.o [1]
+RTC_ByteToBcd2           0x800'837d    0x36  Code  Gb  stm32g4xx_hal_rtc.o [1]
+RTC_EnterInitMode        0x800'82b5    0x44  Code  Gb  stm32g4xx_hal_rtc.o [1]
+RTC_ExitInitMode         0x800'82f9    0x84  Code  Gb  stm32g4xx_hal_rtc.o [1]
+RUC_Clear                0x801'0f81    0x8c  Code  Wk  revup_ctrl.o [1]
+RUC_FirstAccelerationStageReached
+                         0x801'4049    0x14  Code  Wk  revup_ctrl.o [1]
+RUC_GetNumberOfPhases    0x801'30ff     0x6  Code  Wk  revup_ctrl.o [1]
+RUC_GetPhaseDurationms   0x801'3165     0xc  Code  Wk  revup_ctrl.o [1]
+RUC_GetPhaseFinalMecSpeedUnit
+                         0x801'3171     0xe  Code  Wk  revup_ctrl.o [1]
+RUC_GetPhaseFinalTorque
+                         0x801'317f     0xe  Code  Wk  revup_ctrl.o [1]
+RUC_Get_SCLowsideOTF_Status
+                         0x801'3f5d     0x6  Code  Wk  revup_ctrl.o [1]
+RUC_Init                 0x800'c0a5    0x58  Code  Wk  revup_ctrl.o [1]
+RUC_OTF_Exec             0x801'1051   0x230  Code  Wk  revup_ctrl.o [1]
+RUC_SetPhaseDurationms   0x801'318d     0xc  Code  Wk  revup_ctrl.o [1]
+RUC_SetPhaseFinalMecSpeedUnit
+                         0x801'3199     0xc  Code  Wk  revup_ctrl.o [1]
+RUC_SetPhaseFinalTorque
+                         0x801'31a5     0xc  Code  Wk  revup_ctrl.o [1]
+RVBS_CalcAvVbus          0x801'07c1    0xa0  Code  Wk  r_divider_bus_voltage_sensor.o [1]
+RVBS_Init                0x800'c0fd    0x1a  Code  Wk  r_divider_bus_voltage_sensor.o [1]
+RampExtMngrHFParamsM1   0x2000'09a0    0x18  Data  Gb  mc_config.o [1]
+RampStopP               0x2000'0bd8     0x4  Data  Gb  PressureTask.o [1]
+Ratio_Bound             0x2000'1884     0x4  Data  Gb  Swing.o [1]
+RealBusVoltageSensorFilterBufferM1
+                        0x2000'7aa8     0xc  Data  Gb  mc_config.o [1]
+RealBusVoltageSensorParamsM1
+                        0x2000'0978    0x28  Data  Gb  mc_config.o [1]
+RecognizeFlowLimitation
+                         0x800'd5cd   0x7a4  Code  Gb  FlowLimitation.o [1]
+Region$$Table$$Base      0x801'4c84           --   Gb  - Linker created -
+Region$$Table$$Limit     0x801'4ca4           --   Gb  - Linker created -
+ResponseTime_Apnea      0x2000'0014     0x4  Data  Gb  AutoMode.o [1]
+ResponseTime_Hypopnea   0x2000'0018     0x4  Data  Gb  AutoMode.o [1]
+RevUpControlM1          0x2000'06e8    0x78  Data  Gb  mc_config.o [1]
+RoughBaseline           0x2000'04dc     0x4  Data  Gb  FlowProcess.o [1]
+RoughTimer               0x800'9135    0x44  Code  Gb  timeRoutine.o [1]
+RoughTimer::rough_tmr_base_100ms
+                        0x2000'7aca     0x2  Data  Lc  timeRoutine.o [1]
+RoughTimer::rough_tmr_base_10ms
+                        0x2000'7ac8     0x2  Data  Lc  timeRoutine.o [1]
+RoughTimer::rough_tmr_base_5ms
+                        0x2000'7ac6     0x2  Data  Lc  timeRoutine.o [1]
+SDP3x_enable_measurement
+                         0x800'91a9    0x20  Code  Gb  sensor_flow.o [1]
+SPD_GetAvrgMecSpeedUnit
+                         0x800'f83d     0x6  Code  Wk  speed_pos_fdbk.o [1]
+SPD_GetElAngle           0x801'1425     0x6  Code  Wk  speed_pos_fdbk.o [1]
+SPD_GetInstElSpeedDpp    0x801'3f63     0x6  Code  Wk  speed_pos_fdbk.o [1]
+SPD_GetS16Speed          0x801'308d    0x14  Code  Wk  speed_pos_fdbk.o [1]
+SPD_IsMecSpeedReliable   0x801'175f    0x58  Code  Wk  speed_pos_fdbk.o [1]
+STC_CalcTorqueReference
+                         0x801'1281    0x58  Code  Wk  speed_torq_ctrl.o [1]
+STC_Clear                0x800'f503    0x10  Code  Wk  speed_torq_ctrl.o [1]
+STC_ExecRamp             0x801'1839    0x94  Code  Wk  speed_torq_ctrl.o [1]
+STC_ForceSpeedReferenceToCurrentSpeed
+                         0x801'154d    0x10  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetDefaultIqdref     0x800'c1f9    0x16  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetMaxAppPositiveMecSpeedUnit
+                         0x801'30e7     0x4  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetMecSpeedRefUnit   0x801'31b1     0xc  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetMecSpeedRefUnitDefault
+                         0x800'c223     0x6  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetMinAppNegativeMecSpeedUnit
+                         0x801'30eb     0x6  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetSpeedSensor       0x800'f839     0x4  Code  Wk  speed_torq_ctrl.o [1]
+STC_Init                 0x800'c07d    0x24  Code  Wk  speed_torq_ctrl.o [1]
+STC_SetControlMode       0x801'1823     0x8  Code  Wk  speed_torq_ctrl.o [1]
+STC_SetSpeedSensor       0x801'104d     0x4  Code  Wk  speed_torq_ctrl.o [1]
+STC_StopRamp             0x801'31bd     0x8  Code  Wk  speed_torq_ctrl.o [1]
+STM                     0x2000'71e4     0x8  Data  Gb  mc_tasks.o [1]
+STM_FaultAcknowledged    0x800'f735    0x16  Code  Wk  state_machine.o [1]
+STM_FaultProcessing      0x801'0861    0x2a  Code  Wk  state_machine.o [1]
+STM_GetFaultState        0x800'f82d     0xc  Code  Wk  state_machine.o [1]
+STM_GetState             0x801'088b     0x4  Code  Wk  state_machine.o [1]
+STM_Init                 0x800'bcbd     0xa  Code  Wk  state_machine.o [1]
+STM_NextState            0x800'f74d    0xe0  Code  Wk  state_machine.o [1]
+STO_GetPLLGains          0x801'2ff3    0x1e  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_M1                  0x2000'093c    0x14  Data  Gb  mc_config.o [1]
+STO_OTF_ResetPLL         0x801'4d9d     0xa  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_CalcAvrgElSpeedDpp
+                         0x801'4061    0x56  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_CalcAvrgMecSpeedUnit
+                         0x801'0d15   0x1c4  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_CalcElAngle      0x801'3a51   0x1ee  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_Clear            0x800'f3c5    0xa6  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_ForceConvergency1
+                         0x800'5177     0xa  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_ForceConvergency2
+                         0x800'5e37     0xa  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_GetEstimatedBemf
+                         0x801'30bd    0x18  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_GetEstimatedBemfLevel
+                         0x801'30d5     0x6  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_GetEstimatedCurrent
+                         0x801'30a1    0x1c  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_GetObservedBemfLevel
+                         0x801'30db     0x6  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_GetObserverGains
+                         0x801'2fe3     0xa  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_Init             0x800'bfdd    0xa0  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_IsObserverConverged
+                         0x801'135f    0xa2  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_IsVarianceTight
+                         0x801'4dc1     0x8  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_PLL_M1              0x2000'0814   0x128  Data  Gb  mc_config.o [1]
+STO_PLL_SetObserverGains
+                         0x801'2fed     0x6  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_ResetPLL             0x801'40b7     0x8  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_SetDirection         0x801'1401     0x6  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+STO_SetPLLGains          0x801'3011    0x20  Code  Wk  sto_pll_speed_pos_fdbk.o [1]
+SUB_NUM                 0x2000'0411     0x1  Data  Gb  DynamicTemplate.o [1]
+SVC_Handler              0x800'f6dd          Code  Gb  portasm.o [1]
+SWING_CONTROL            0x800'e531    0xe6  Code  Gb  Swing.o [1]
+SafeTemplate            0x2000'0416     0x2  Data  Gb  DynamicTemplate.o [1]
+SampleRate_Count        0x2000'0024     0x4  Data  Lc  AutoMode.o [1]
+SampleRate_Count        0x2000'04a4     0x4  Data  Lc  EventDetection.o [1]
+SamplingTemplate        0x2000'0448    0x10  Data  Gb  DynamicTemplate.o [1]
+SetRPMByFansLaw          0x800'ad35    0x58  Code  Gb  PressureControl.o [1]
+SnoringBreathCnt        0x2000'0062     0x2  Data  Gb  BreathTask.o [1]
+SnoringDetectionAmp     0x2000'0070     0x4  Data  Gb  BreathTask.o [1]
+SnoringDetectionCnt     0x2000'0055     0x1  Data  Gb  BreathTask.o [1]
+SnoringIndex            0x2000'0060     0x2  Data  Gb  BreathTask.o [1]
+SnoringLevel            0x2000'005e     0x2  Data  Gb  BreathTask.o [1]
+SnoringNoUpdateCnt      0x2000'0056     0x1  Data  Gb  BreathTask.o [1]
+SnoringTemplate         0x2000'0064     0x2  Data  Gb  BreathTask.o [1]
+SpeednTorqCtrlM1        0x2000'06b4    0x34  Data  Gb  mc_config.o [1]
+StableNormalCount       0x2000'047d     0x1  Data  Gb  EventDetection.o [1]
+StartSafetyTask          0x800'9981    0x10  Code  Gb  mc_tasks.o [1]
+StateCounter_Apnea      0x2000'000c     0x4  Data  Gb  AutoMode.o [1]
+StateCounter_Hypopnea   0x2000'0010     0x4  Data  Gb  AutoMode.o [1]
+StateCounter_Normal     0x2000'0008     0x4  Data  Gb  AutoMode.o [1]
+Status_Change_Count     0x2000'047e     0x1  Data  Gb  EventDetection.o [1]
+SysTick_Handler          0x800'c77d    0x2a  Code  Gb  port.o [1]
+SystemClock_Config       0x800'3a21    0xc2  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'1894     0x4  Data  Gb  system_stm32g4xx.o [1]
+SystemInit               0x801'4cc5     0xc  Code  Gb  system_stm32g4xx.o [1]
+TEMPLATE_UPDATE_PENDING
+                        0x2000'0413     0x1  Data  Gb  DynamicTemplate.o [1]
+TIM1_BRK_TIM15_IRQHandler
+                         0x801'43bb    0x30  Code  Gb  stm32g4xx_mc_it.o [1]
+TIM1_UP_TIM16_IRQHandler
+                         0x801'43ad     0xe  Code  Gb  stm32g4xx_mc_it.o [1]
+TIM6_DAC_IRQHandler      0x800'183f     0x6  Code  Gb  stm32g4xx_it.o [1]
+TIM7_DAC_IRQHandler      0x800'1845    0x32  Code  Gb  stm32g4xx_it.o [1]
+TIM7_DAC_IRQHandler::tim_100us_cnt
+                        0x2000'7a23     0x1  Data  Lc  stm32g4xx_it.o [1]
+TIM_Base_SetConfig       0x800'322d    0xdc  Code  Gb  stm32g4xx_hal_tim.o [1]
+TIM_OC1_SetConfig        0x800'330b    0x98  Code  Lc  stm32g4xx_hal_tim.o [1]
+TIM_OC2_SetConfig        0x800'33a3    0x84  Code  Gb  stm32g4xx_hal_tim.o [1]
+TIM_OC3_SetConfig        0x800'3427    0x7e  Code  Lc  stm32g4xx_hal_tim.o [1]
+TIM_OC4_SetConfig        0x800'34a7    0x80  Code  Lc  stm32g4xx_hal_tim.o [1]
+TIM_OC5_SetConfig        0x800'3527    0x5e  Code  Lc  stm32g4xx_hal_tim.o [1]
+TIM_OC6_SetConfig        0x800'3585    0x60  Code  Lc  stm32g4xx_hal_tim.o [1]
+TIM_SlaveTimer_SetConfig
+                         0x800'35f9    0xba  Code  Lc  stm32g4xx_hal_tim.o [1]
+TSK_Algorithm            0x800'4329    0x62  Code  Gb  main.o [1]
+TSK_Comm                 0x800'43c9     0xc  Code  Gb  main.o [1]
+TSK_CpuUsage             0x800'43d5     0xe  Code  Gb  main.o [1]
+TSK_FileSystem           0x800'43a5     0xc  Code  Gb  main.o [1]
+TSK_HardwareFaultTask    0x801'4709    0x20  Code  Wk  mc_tasks.o [1]
+TSK_HighFrequencyTask    0x801'3df9   0x158  Code  Wk  mc_tasks.o [1]
+TSK_Mode                 0x800'4399     0xc  Code  Gb  main.o [1]
+TSK_Peripheral           0x800'43b1    0x18  Code  Gb  main.o [1]
+TempSensorParamsM1      0x2000'0950    0x28  Data  Gb  mc_config.o [1]
+TempSnoringLevel        0x2000'005c     0x2  Data  Gb  BreathTask.o [1]
+Template_State          0x2000'0414     0x1  Data  Gb  DynamicTemplate.o [1]
+TimeScan                 0x800'36ef    0xc4  Code  Gb  timer.o [1]
+TimeService              0x800'90f1    0x44  Code  Gb  timeRoutine.o [1]
+TimerInc                 0x800'36e5     0xa  Code  Gb  timer.o [1]
+TrainingTemplate        0x2000'0424    0x10  Data  Gb  DynamicTemplate.o [1]
+TreatmentDuration       0x2000'0420     0x2  Data  Gb  DynamicTemplate.o [1]
+TreatmentP              0x2000'1880     0x4  Data  Gb  Swing.o [1]
+UARTEx_SetNbDataToProcess::denominator
+                         0x800'8e1c     0x8  Data  Lc  stm32g4xx_hal_uart_ex.o [1]
+UARTEx_SetNbDataToProcess::numerator
+                         0x800'8e14     0x8  Data  Lc  stm32g4xx_hal_uart_ex.o [1]
+UARTPrescTable           0x800'8adc    0x18  Data  Gb  stm32g4xx_hal_uart.o [1]
+UART_AdvFeatureConfig    0x800'8af5    0xc6  Code  Gb  stm32g4xx_hal_uart.o [1]
+UART_CheckIdleState      0x800'8bbb    0xdc  Code  Gb  stm32g4xx_hal_uart.o [1]
+UART_SetConfig           0x800'8835   0x2a6  Code  Gb  stm32g4xx_hal_uart.o [1]
+UFCP_AbortReceive        0x801'4dc9     0x8  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_Init                0x800'c281     0x4  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_OVR_IRQ_Handler     0x801'46f1    0x18  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_RX_IRQ_Handler      0x801'4591    0xe4  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_Receive             0x800'4e87    0x26  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_Send                0x801'4785    0x84  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_TX_IRQ_Handler      0x801'468d    0x64  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_Usart_Timeout_none
+                         0x800'5ec2     0x2  Data  Lc  usart_frame_communication_protocol.o [1]
+UFCP_Usart_Timeout_start
+                         0x800'5ec4     0x2  Data  Lc  usart_frame_communication_protocol.o [1]
+UFCP_Usart_Timeout_stop
+                         0x800'5ec6     0x2  Data  Lc  usart_frame_communication_protocol.o [1]
+UI_ExecCmd               0x801'2e01    0x90  Code  Wk  user_interface.o [1]
+UI_ExecSpeedRamp         0x801'2e91    0x30  Code  Wk  user_interface.o [1]
+UI_ExecTorqueRamp        0x801'2ec1    0x12  Code  Wk  user_interface.o [1]
+UI_GetMPInfo             0x801'2f73     0x4  Code  Wk  user_interface.o [1]
+UI_GetReg                0x801'28d1   0x530  Code  Wk  user_interface.o [1]
+UI_GetRevupData          0x801'2ed3    0x4e  Code  Wk  user_interface.o [1]
+UI_Init                  0x800'c2c9    0x18  Code  Wk  user_interface.o [1]
+UI_Params               0x2000'7a3c    0x18  Data  Gb  mc_config.o [1]
+UI_Scheduler             0x800'9b49    0x2c  Code  Wk  ui_task.o [1]
+UI_SerialCommunicationTimeOutStart
+                         0x801'4675     0xc  Code  Wk  ui_task.o [1]
+UI_SerialCommunicationTimeOutStop
+                         0x801'4681     0xc  Code  Wk  ui_task.o [1]
+UI_SetCurrentReferences
+                         0x801'2f59    0x1a  Code  Wk  user_interface.o [1]
+UI_SetReg                0x801'2631   0x2a0  Code  Wk  user_interface.o [1]
+UI_SetRevupData          0x801'2f21    0x38  Code  Wk  user_interface.o [1]
+UI_TaskInit              0x800'9ad9    0x70  Code  Gb  ui_task.o [1]
+USART2_IRQHandler        0x801'43eb    0x5e  Code  Gb  stm32g4xx_mc_it.o [1]
+USBD_CDC                0x2000'18a4    0x38  Data  Gb  usbd_cdc.o [1]
+USBD_CDC_CfgFSDesc      0x2000'1920    0x44  Data  Lc  usbd_cdc.o [1]
+USBD_CDC_CfgHSDesc      0x2000'18dc    0x44  Data  Lc  usbd_cdc.o [1]
+USBD_CDC_ConfigStrDescriptor
+                         0x801'4201    0x14  Code  Gb  usbd_desc.o [1]
+USBD_CDC_DataIn          0x800'9d35    0x60  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_DataOut         0x800'9d95    0x30  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_DeInit          0x800'9c1d    0x4e  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_DeviceDesc     0x2000'19dc    0x14  Data  Gb  usbd_desc.o [1]
+USBD_CDC_DeviceDescriptor
+                         0x801'4155     0x8  Code  Gb  usbd_desc.o [1]
+USBD_CDC_DeviceQualifierDesc
+                        0x2000'1898     0xc  Data  Lc  usbd_cdc.o [1]
+USBD_CDC_EP0_RxReady     0x800'9dc5    0x30  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_GetDeviceQualifierDescriptor
+                         0x800'9e0d     0x8  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_GetFSCfgDesc    0x800'9df5     0x8  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_GetHSCfgDesc    0x800'9dfd     0x8  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_GetOtherSpeedCfgDesc
+                         0x800'9e05     0x8  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_Init            0x800'9b75    0xa8  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_InterfaceStrDescriptor
+                         0x801'4215    0x14  Code  Gb  usbd_desc.o [1]
+USBD_CDC_LangIDStrDescriptor
+                         0x801'415d     0x8  Code  Gb  usbd_desc.o [1]
+USBD_CDC_ManufacturerStrDescriptor
+                         0x801'4179    0x14  Code  Gb  usbd_desc.o [1]
+USBD_CDC_OtherSpeedCfgDesc
+                        0x2000'1964    0x44  Data  Lc  usbd_cdc.o [1]
+USBD_CDC_ProductStrDescriptor
+                         0x801'4165    0x14  Code  Gb  usbd_desc.o [1]
+USBD_CDC_ReceivePacket   0x800'9e5b    0x2c  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_RegisterInterface
+                         0x800'9e25     0xe  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_SerialStrDescriptor
+                         0x801'418d    0x74  Code  Gb  usbd_desc.o [1]
+USBD_CDC_SetRxBuffer     0x800'9e49    0x12  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_SetTxBuffer     0x800'9e33    0x16  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_Setup           0x800'9c6d    0xc8  Code  Lc  usbd_cdc.o [1]
+USBD_ClrClassConfig      0x800'94c5    0x14  Code  Gb  usbd_core.o [1]
+USBD_CtlContinueRx       0x800'bc75    0x14  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlContinueSendData
+                         0x800'bc3f    0x14  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlError            0x800'bb73    0x16  Code  Gb  usbd_ctlreq.o [1]
+USBD_CtlPrepareRx        0x800'bc53    0x22  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlReceiveStatus    0x800'bca3    0x1a  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendData         0x800'bc21    0x1e  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendStatus       0x800'bc89    0x1a  Code  Gb  usbd_ioreq.o [1]
+USBD_GetString           0x800'bb89    0x98  Code  Gb  usbd_ctlreq.o [1]
+USBD_Init                0x800'9459    0x26  Code  Gb  usbd_core.o [1]
+USBD_Interface_fops_FS  0x2000'19a8    0x14  Data  Gb  usbd_cdc_if.o [1]
+USBD_LL_ClearStallEP     0x800'507b    0x1e  Code  Gb  usbd_conf.o [1]
+USBD_LL_CloseEP          0x800'503f    0x1e  Code  Gb  usbd_conf.o [1]
+USBD_LL_DataInStage      0x800'95b3    0xac  Code  Gb  usbd_core.o [1]
+USBD_LL_DataOutStage     0x800'953d    0x76  Code  Gb  usbd_core.o [1]
+USBD_LL_GetRxDataSize    0x800'5113     0x8  Code  Gb  usbd_conf.o [1]
+USBD_LL_Init             0x800'4f81    0x7e  Code  Gb  usbd_conf.o [1]
+USBD_LL_IsStallEP        0x800'5099    0x20  Code  Gb  usbd_conf.o [1]
+USBD_LL_OpenEP           0x800'501d    0x22  Code  Gb  usbd_conf.o [1]
+USBD_LL_PrepareReceive   0x800'50f5    0x1e  Code  Gb  usbd_conf.o [1]
+USBD_LL_Reset            0x800'965f    0x64  Code  Gb  usbd_core.o [1]
+USBD_LL_Resume           0x800'96db    0x14  Code  Gb  usbd_core.o [1]
+USBD_LL_SOF              0x800'96ef    0x24  Code  Gb  usbd_core.o [1]
+USBD_LL_SetSpeed         0x800'96c3     0x6  Code  Gb  usbd_core.o [1]
+USBD_LL_SetUSBAddress    0x800'50b9    0x1e  Code  Gb  usbd_conf.o [1]
+USBD_LL_SetupStage       0x800'94d9    0x64  Code  Gb  usbd_core.o [1]
+USBD_LL_StallEP          0x800'505d    0x1e  Code  Gb  usbd_conf.o [1]
+USBD_LL_Start            0x800'4fff    0x1e  Code  Gb  usbd_conf.o [1]
+USBD_LL_Suspend          0x800'96c9    0x12  Code  Gb  usbd_core.o [1]
+USBD_LL_Transmit         0x800'50d7    0x1e  Code  Gb  usbd_conf.o [1]
+USBD_LangIDDesc         0x2000'19f0     0x4  Data  Gb  usbd_desc.o [1]
+USBD_ParseSetupRequest   0x800'bb4b    0x28  Code  Gb  usbd_ctlreq.o [1]
+USBD_RegisterClass       0x800'947f    0x2a  Code  Gb  usbd_core.o [1]
+USBD_SetClassConfig      0x800'94ad    0x18  Code  Gb  usbd_core.o [1]
+USBD_SetConfig::cfgidx  0x2000'7b00     0x1  Data  Lc  usbd_ctlreq.o [1]
+USBD_Start               0x800'94a9     0x4  Code  Gb  usbd_core.o [1]
+USBD_StdDevReq           0x800'b645   0x338  Code  Gb  usbd_ctlreq.o [1]
+USBD_StdEPReq            0x800'b9d9   0x172  Code  Gb  usbd_ctlreq.o [1]
+USBD_StdItfReq           0x800'b981    0x58  Code  Gb  usbd_ctlreq.o [1]
+USBD_StrDesc            0x2000'6e30   0x200  Data  Gb  usbd_desc.o [1]
+USBD_StringSerial       0x2000'19f4    0x1c  Data  Gb  usbd_desc.o [1]
+USBD_static_free         0x800'5175     0x2  Code  Gb  usbd_conf.o [1]
+USBD_static_malloc       0x800'515d     0x4  Code  Gb  usbd_conf.o [1]
+USBD_static_malloc::mem
+                        0x2000'6c10   0x220  Data  Lc  usbd_conf.o [1]
+USB_ActivateEndpoint     0x800'51c1   0x256  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_DeactivateEndpoint   0x800'5417   0x166  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_DevConnect           0x800'5cc7    0x10  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_DevInit              0x800'51a5    0x1c  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_DisableGlobalInt     0x800'5193    0x12  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_EPClearStall         0x800'5c39    0x82  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_EPSetStall           0x800'5bf9    0x40  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_EPStartXfer          0x800'557d   0x67c  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_EnableGlobalInt      0x800'5181    0x12  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_LP_IRQHandler        0x800'1839     0x6  Code  Gb  stm32g4xx_it.o [1]
+USB_ReadInterrupts       0x800'5cd7     0x6  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_ReadPMA              0x800'5d49    0x68  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_SetDevAddress        0x800'5cbb     0xc  Code  Gb  stm32g4xx_ll_usb.o [1]
+USB_WritePMA             0x800'5cdd    0x6c  Code  Gb  stm32g4xx_ll_usb.o [1]
+USERPath                0x2000'7ad0     0x4  Data  Gb  app_fatfs.o [1]
+USER_Driver             0x2000'1a10    0x14  Data  Gb  user_diskio.o [1]
+USER_initialize          0x801'4a61    0x16  Code  Gb  user_diskio.o [1]
+USER_ioctl               0x801'4ab9    0x32  Code  Gb  user_diskio.o [1]
+USER_read                0x801'4a81    0x1c  Code  Gb  user_diskio.o [1]
+USER_status              0x801'4a7d     0x4  Code  Gb  user_diskio.o [1]
+USER_write               0x801'4a9d    0x1c  Code  Gb  user_diskio.o [1]
+UpdateRecordTargetP     0x2000'0004     0x1  Data  Gb  AutoMode.o [1]
+UpdatingTemplate        0x2000'0434    0x14  Data  Gb  DynamicTemplate.o [1]
+UserRxBufferFS          0x2000'564c   0x800  Data  Gb  usbd_cdc_if.o [1]
+UserTxBufferFS          0x2000'5e4c   0x800  Data  Gb  usbd_cdc_if.o [1]
+VBS_GetAvBusVoltage_V    0x801'17b7     0xc  Code  Wk  bus_voltage_sensor.o [1]
+VBS_GetAvBusVoltage_d    0x801'405d     0x4  Code  Wk  bus_voltage_sensor.o [1]
+VSS_CalcAvrgMecSpeedUnit
+                         0x801'12d9    0x86  Code  Wk  virtual_speed_sensor.o [1]
+VSS_CalcElAngle          0x801'40bf    0x94  Code  Wk  virtual_speed_sensor.o [1]
+VSS_Clear                0x800'f46b    0x2e  Code  Wk  virtual_speed_sensor.o [1]
+VSS_Init                 0x800'c0a1     0x4  Code  Wk  virtual_speed_sensor.o [1]
+VSS_SetCopyObserver      0x801'1955     0x8  Code  Wk  virtual_speed_sensor.o [1]
+VSS_SetMecAcceleration   0x801'18cd    0x88  Code  Wk  virtual_speed_sensor.o [1]
+VSS_SetMecAngle          0x801'182b     0xe  Code  Wk  virtual_speed_sensor.o [1]
+VSS_SetStartTransition   0x801'1407    0x1e  Code  Wk  virtual_speed_sensor.o [1]
+VSS_TransitionEnded      0x801'1519     0x6  Code  Wk  virtual_speed_sensor.o [1]
+VirtualSpeedSensorM1    0x2000'07dc    0x38  Data  Gb  mc_config.o [1]
+ZeroLeakFlow            0x2000'7aa0     0x4  Data  Gb  LeakManagement.o [1]
+ZeroLeakP               0x2000'0510     0xc  Data  Gb  LeakManagement.o [1]
+ZeroLeakQ               0x2000'0504     0xc  Data  Gb  LeakManagement.o [1]
+__aeabi_cdcmpeq          0x801'0c55          Code  Gb  DblCmpEq.o [3]
+__aeabi_cdcmple          0x801'0ce5          Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple         0x800'f881          Code  Gb  DblCmpGe.o [3]
+__aeabi_d2f              0x800'b2bd          Code  Gb  DblToFlt.o [3]
+__aeabi_d2iz             0x800'f845          Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz            0x800'eb21          Code  Gb  DblToU32.o [3]
+__aeabi_dadd             0x800'b4c9          Code  Gb  DblAdd.o [3]
+__aeabi_ddiv             0x800'e8a9          Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'b325          Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'eb49          Code  Gb  DblSub.o [3]
+__aeabi_f2d              0x800'b171          Code  Gb  FltToDbl.o [3]
+__aeabi_i2d              0x800'f8b1          Code  Gb  S32ToDbl.o [3]
+__aeabi_ldiv0            0x800'c7d5          Code  Gb  I64DivZer.o [4]
+__aeabi_memclr           0x801'161d          Code  Gb  ABImemclr.o [4]
+__aeabi_memclr4          0x800'6451          Code  Gb  ABImemclr4.o [4]
+__aeabi_memcpy4          0x800'5db1          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8          0x800'5db1          Code  Gb  ABImemcpy.o [4]
+__aeabi_memset           0x800'4e21          Code  Gb  ABImemset.o [4]
+__aeabi_memset4          0x800'a619          Code  Gb  ABImemset48.o [4]
+__aeabi_memset8          0x800'a619          Code  Gb  ABImemset48.o [4]
+__aeabi_ui2d             0x800'e88d          Code  Gb  U32ToDbl.o [3]
+__aeabi_uldivmod         0x800'a655          Code  Gb  I64DivMod.o [4]
+__cmain                  0x801'4ce5          Code  Gb  cmain.o [4]
+__exit                   0x801'4d19    0x14  Code  Gb  exit.o [5]
+__iar_Exp64              0x801'08a9   0x34c  Code  Gb  iar_Exp64.o [3]
+__iar_Memset             0x800'4e21          Code  Gb  ABImemset.o [4]
+__iar_Memset4_word       0x800'a621          Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word       0x800'a621          Code  Gb  ABImemset48.o [4]
+__iar_Memset_word        0x800'4e29          Code  Gb  ABImemset.o [4]
+__iar_Sin64              0x800'ffdd   0x38e  Code  Lc  cos_sin64.o [3]
+__iar_dadd               0x800'eb59          Code  Gb  DblSub.o [3]
+__iar_data_init3         0x801'4c39    0x28  Code  Gb  data_init.o [4]
+__iar_dsub               0x800'b4d9          Code  Gb  DblAdd.o [3]
+__iar_dsubStart          0x800'b4eb          Code  Gb  DblAdd.o [3]
+__iar_exp64              0x800'f8d5    0x44  Code  Gb  exp64.o [3]
+__iar_exp_medium         0x800'f8d5    0x44  Code  Gb  exp64.o [3]
+__iar_exp_medium64       0x800'f8d5    0x44  Code  Gb  exp64.o [3]
+__iar_exp_mediuml        0x800'f8d5    0x44  Code  Gb  exp64.o [3]
+__iar_frexp              0x801'0c81          Code  Gb  frexp.o [3]
+__iar_frexpl             0x801'0c81          Code  Gb  frexp.o [3]
+__iar_init_vfp           0x801'4c61          Code  Gb  fpinit_M.o [3]
+__iar_ldexp64            0x801'1625          Code  Gb  ldexp.o [3]
+__iar_lz77_init_single3
+                         0x801'4aeb    0x78  Code  Gb  lz77_init_single.o [4]
+__iar_pow64              0x800'f919   0x6c4  Code  Gb  pow64.o [3]
+__iar_pow_medium         0x800'f919   0x6c4  Code  Gb  pow64.o [3]
+__iar_pow_medium64       0x800'f919   0x6c4  Code  Gb  pow64.o [3]
+__iar_pow_mediuml        0x800'f919   0x6c4  Code  Gb  pow64.o [3]
+__iar_program_start      0x801'4d91          Code  Gb  cstartup_M.o [4]
+__iar_scalbln64          0x801'1625          Code  Gb  ldexp.o [3]
+__iar_scalbn64           0x801'1625          Code  Gb  ldexp.o [3]
+__iar_sin64              0x801'03fd     0x4  Code  Gb  cos_sin64.o [3]
+__iar_sin_medium         0x801'03fd     0x4  Code  Gb  cos_sin64.o [3]
+__iar_sin_medium64       0x801'03fd     0x4  Code  Gb  cos_sin64.o [3]
+__iar_sin_mediuml        0x801'03fd     0x4  Code  Gb  cos_sin64.o [3]
+__iar_softfp___iar_frexp64
+                         0x801'0c75          Code  Gb  frexp.o [3]
+__iar_softfp_frexp       0x801'0c75          Code  Gb  frexp.o [3]
+__iar_softfp_frexpl      0x801'0c75          Code  Gb  frexp.o [3]
+__iar_sqrt64             0x800'b1c9          Code  Gb  sqrt.o [3]
+__iar_vfp___iar_sqrt64   0x800'b1b9          Code  Gb  sqrt.o [3]
+__iar_vfp_exp            0x800'eaf7     0xc  Code  Gb  math_wrappers64.o [3]
+__iar_vfp_pow            0x800'eb03    0x10  Code  Gb  math_wrappers64.o [3]
+__iar_vfp_sin            0x800'eb13     0xc  Code  Gb  math_wrappers64.o [3]
+__iar_vfp_sqrt           0x800'b1b9          Code  Gb  sqrt.o [3]
+__iar_vfp_sqrtl          0x800'b1b9          Code  Gb  sqrt.o [3]
+__iar_zero_init3         0x800'4c77    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x801'4d03     0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000          Data  Gb  startup_stm32g474xx.o [1]
+_call_main               0x801'4cf1          Code  Gb  cmain.o [4]
+_exit                    0x801'4d0d          Code  Gb  cexit.o [4]
+_main                    0x801'4cff          Code  Gb  cmain.o [4]
+adc_temperature_sample_cnt
+                        0x2000'185c     0x1  Data  Gb  regular_adc.o [1]
+adc_temperature_sum     0x2000'1860     0x4  Data  Gb  regular_adc.o [1]
+adc_vbat_sample_cnt     0x2000'1868     0x1  Data  Gb  regular_adc.o [1]
+adc_vbat_sum            0x2000'186c     0x4  Data  Gb  regular_adc.o [1]
+bCOMATRTimeCounter      0x2000'1a28     0x2  Data  Lc  ui_task.o [1]
+bCOMTimeoutCounter      0x2000'1a26     0x2  Data  Lc  ui_task.o [1]
+bMCBootCompleted        0x2000'71d8     0x1  Data  Gb  mc_tasks.o [1]
+bUITaskCounter          0x2000'1a24     0x2  Data  Lc  ui_task.o [1]
+cLeakFlow               0x2000'7aa4     0x4  Data  Gb  LeakManagement.o [1]
+color_led_blink_polling
+                         0x800'63a9    0x4c  Code  Gb  color_led.o [1]
+color_led_init           0x800'62c1    0x4c  Code  Gb  color_led.o [1]
+color_led_set_blink_disable
+                         0x800'6369    0x3e  Code  Gb  color_led.o [1]
+color_led_turn_off       0x800'630d    0x2e  Code  Gb  color_led.o [1]
+color_led_turn_on        0x800'633b    0x2e  Code  Gb  color_led.o [1]
+configureTimerForRunTimeStats
+                         0x800'c7bd     0xc  Code  Wk  app_freertos.o [1]
+ctrl_status             0x2000'7a68     0x1  Data  Lc  sensor_if.o [1]
+ctrl_timecnt            0x2000'7a78     0x4  Data  Lc  sensor_if.o [1]
+curr_flow_lpm           0x2000'7a74     0x4  Data  Gb  sensor_if.o [1]
+curr_flow_pa            0x2000'7a70     0x4  Data  Gb  sensor_if.o [1]
+curr_mmH2O              0x2000'7a6c     0x2  Data  Gb  sensor_if.o [1]
+db_ms                   0x2000'0bae     0x2  Data  Gb  motor_control.o [1]
+db_rpm                  0x2000'0bac     0x2  Data  Gb  motor_control.o [1]
+db_update_rpm           0x2000'0baa     0x1  Data  Gb  motor_control.o [1]
+disk                    0x2000'7a90     0xc  Data  Gb  ff_gen_drv.o [1]
+dp_buf                  0x2000'7ab4     0x4  Data  Lc  sensor_flow.o [1]
+dp_err_cnt              0x2000'7abc     0x4  Data  Lc  sensor_flow.o [1]
+dp_err_flag             0x2000'7ab8     0x1  Data  Lc  sensor_flow.o [1]
+dp_raw_value            0x2000'7aba     0x2  Data  Lc  sensor_flow.o [1]
+exit                     0x801'4d07     0x4  Code  Gb  exit.o [2]
+exp                      0x800'f8d5    0x44  Code  Gb  exp64.o [3]
+expl                     0x800'f8d5    0x44  Code  Gb  exp64.o [3]
+g_osRunTimerCounter     0x2000'7aec     0x4  Data  Gb  main.o [1]
+g_rtc_date              0x2000'7af8     0x4  Data  Gb  rtc.o [1]
+g_rtc_time              0x2000'7a54    0x14  Data  Gb  rtc.o [1]
+g_user_tim_tick         0x2000'7af0     0x4  Data  Gb  main.o [1]
+gain_factor             0x2000'04e4     0x4  Data  Gb  FlowProcess.o [1]
+getRunTimeCounterValue   0x800'c7c9     0xc  Code  Wk  app_freertos.o [1]
+get_rtc                  0x800'83ed    0x2c  Code  Gb  rtc.o [1]
+gp_buf                  0x2000'7a7c     0x8  Data  Lc  sensor_pressure.o [1]
+gp_err_cnt              0x2000'7a8c     0x4  Data  Lc  sensor_pressure.o [1]
+gp_err_flag             0x2000'7a88     0x4  Data  Lc  sensor_pressure.o [1]
+gp_raw_value            0x2000'7a84     0x2  Data  Lc  sensor_pressure.o [1]
+hBootCapDelayCounterM1  0x2000'71dc     0x2  Data  Lc  mc_tasks.o [1]
+hMFTaskCounterM1        0x2000'71da     0x2  Data  Lc  mc_tasks.o [1]
+hStopPermanencyCounterM1
+                        0x2000'71de     0x2  Data  Lc  mc_tasks.o [1]
+hUsbDeviceFS            0x2000'6940   0x2d0  Data  Gb  usb_device.o [1]
+hadc1                   0x2000'7498    0x6c  Data  Gb  main.o [1]
+hadc2                   0x2000'7504    0x6c  Data  Gb  main.o [1]
+hal_spi_flash_erase      0x801'1b3d    0xa6  Code  Gb  bsp_w25q64.o [1]
+hal_spi_flash_erase_write
+                         0x801'1fe7    0x1e  Code  Gb  bsp_w25q64.o [1]
+hal_spi_flash_get_id     0x801'207b    0x6a  Code  Gb  bsp_w25q64.o [1]
+hal_spi_flash_read       0x801'2005    0x76  Code  Gb  bsp_w25q64.o [1]
+hal_spi_flash_write      0x801'1be3   0x404  Code  Gb  bsp_w25q64.o [1]
+hcomp1                  0x2000'799c    0x24  Data  Gb  main.o [1]
+hcomp2                  0x2000'79c0    0x24  Data  Gb  main.o [1]
+hcomp4                  0x2000'79e4    0x24  Data  Gb  main.o [1]
+hcordic                 0x2000'7330    0x28  Data  Gb  main.o [1]
+hi2c3                   0x2000'7668    0x4c  Data  Gb  main.o [1]
+hi2c4                   0x2000'76b4    0x4c  Data  Gb  main.o [1]
+hopamp1                 0x2000'787c    0x3c  Data  Gb  main.o [1]
+hopamp2                 0x2000'78b8    0x3c  Data  Gb  main.o [1]
+hpcd_USB_FS             0x2000'664c   0x2f4  Data  Gb  usbd_conf.o [1]
+hqspi1                  0x2000'7700    0x4c  Data  Gb  main.o [1]
+hrtc                    0x2000'7974    0x28  Data  Gb  main.o [1]
+htim1                   0x2000'774c    0x4c  Data  Gb  main.o [1]
+htim2                   0x2000'7798    0x4c  Data  Gb  main.o [1]
+htim4                   0x2000'77e4    0x4c  Data  Gb  main.o [1]
+htim6                   0x2000'7830    0x4c  Data  Gb  stm32g4xx_hal_timebase_tim.o [1]
+htim7                   0x2000'72e4    0x4c  Data  Gb  main.o [1]
+huart1                  0x2000'7378    0x90  Data  Gb  main.o [1]
+huart2                  0x2000'7408    0x90  Data  Gb  main.o [1]
+init_err_cnt            0x2000'7a6b     0x1  Data  Lc  sensor_if.o [1]
+isApnea                 0x2000'0057     0x1  Data  Gb  BreathTask.o [1]
+isApneaO                0x2000'0bd4     0x1  Data  Gb  PressureTask.o [1]
+ldexp                    0x801'1625          Code  Gb  ldexp.o [3]
+ldexpl                   0x801'1625          Code  Gb  ldexp.o [3]
+led_control              0x800'6275    0x3c  Code  Gb  led.o [1]
+led_init                 0x800'6225    0x50  Code  Gb  led.o [1]
+leds                    0x2000'7adc     0x8  Data  Gb  led.o [1]
+lnbias                   0x801'3230   0x420  Data  Lc  pow64.o [3]
+main                     0x800'37b9   0x268  Code  Gb  main.o [1]
+main::os_thread_def_mediumFrequency
+                         0x800'44c0    0x14  Data  Lc  main.o [1]
+main::os_thread_def_safety
+                         0x800'44d4    0x14  Data  Lc  main.o [1]
+main::os_thread_def_task_FS
+                         0x800'4510    0x14  Data  Lc  main.o [1]
+main::os_thread_def_task_algorithm
+                         0x800'44e8    0x14  Data  Lc  main.o [1]
+main::os_thread_def_task_comm
+                         0x800'4538    0x14  Data  Lc  main.o [1]
+main::os_thread_def_task_cpu
+                         0x800'454c    0x14  Data  Lc  main.o [1]
+main::os_thread_def_task_mode
+                         0x800'44fc    0x14  Data  Lc  main.o [1]
+main::os_thread_def_task_peripheral
+                         0x800'4524    0x14  Data  Lc  main.o [1]
+max_pressure_setting    0x2000'0028     0x4  Data  Gb  AutoMode.o [1]
+mc_lock_pins             0x800'9991   0x148  Code  Wk  mc_tasks.o [1]
+mediumFrequencyHandle   0x2000'7358     0x4  Data  Gb  main.o [1]
+memset                   0x800'1a81    0x14  Code  Gb  memset.o [4]
+min_pressure_setting    0x2000'002c     0x4  Data  Gb  AutoMode.o [1]
+motor_temperature       0x2000'1864     0x4  Data  Gb  regular_adc.o [1]
+motor_temperature_conversion_cb
+                         0x800'9089    0x26  Code  Lc  regular_adc.o [1]
+motorctrl               0x2000'0ba8     0x1  Data  Gb  motor_control.o [1]
+motorctrl_basetime_cnt  0x2000'0bb0     0x4  Data  Lc  motor_control.o [1]
+motorctrl_curr_rpm      0x2000'0bb4     0x4  Data  Lc  motor_control.o [1]
+motorctrl_error_code    0x2000'0bb8     0x4  Data  Gb  motor_control.o [1]
+motorctrl_fault         0x2000'0ba9     0x1  Data  Lc  motor_control.o [1]
+motorctrl_get_motor_speed
+                         0x800'8e33     0x6  Code  Gb  motor_control.o [1]
+motorctrl_init           0x800'8e39     0xc  Code  Gb  motor_control.o [1]
+motorctrl_polling        0x800'8ea1    0xe0  Code  Gb  motor_control.o [1]
+motorctrl_set_motor_speed
+                         0x800'8e25     0xe  Code  Gb  motor_control.o [1]
+motorctrl_set_start      0x800'8e45    0x34  Code  Gb  motor_control.o [1]
+motorctrl_set_stop       0x800'8e79    0x28  Code  Gb  motor_control.o [1]
+nLeakFlow               0x2000'7a9c     0x4  Data  Gb  LeakManagement.o [1]
+oMCInterface            0x2000'71e0     0x4  Data  Gb  mc_tasks.o [1]
+osDelay                  0x800'643f    0x12  Code  Gb  cmsis_os.o [1]
+osKernelStart            0x800'6401     0xe  Code  Gb  cmsis_os.o [1]
+osThreadCreate           0x800'640f    0x30  Code  Gb  cmsis_os.o [1]
+pBusSensorM1            0x2000'71fc     0x4  Data  Gb  mc_tasks.o [1]
+pCLM                    0x2000'720c     0x4  Data  Gb  mc_tasks.o [1]
+pMCI                    0x2000'0bbc     0x4  Data  Gb  motorcontrol.o [1]
+pMCP                    0x2000'72e0     0x4  Data  Gb  ui_task.o [1]
+pMCT                    0x2000'0bc0     0x4  Data  Gb  motorcontrol.o [1]
+pMPM                    0x2000'7208     0x4  Data  Gb  mc_tasks.o [1]
+pPIDId                  0x2000'71f8     0x4  Data  Gb  mc_tasks.o [1]
+pPIDIq                  0x2000'71f4     0x4  Data  Gb  mc_tasks.o [1]
+pPIDSpeed               0x2000'71f0     0x4  Data  Gb  mc_tasks.o [1]
+pREMNG                  0x2000'7210     0x4  Data  Gb  mc_tasks.o [1]
+pSTC                    0x2000'71ec     0x4  Data  Gb  mc_tasks.o [1]
+pTemperatureSensor      0x2000'7200     0x4  Data  Gb  mc_tasks.o [1]
+pUSART                  0x2000'0a6c   0x13c  Data  Gb  mc_config.o [1]
+pingKeyLocked           0x2000'792c     0x1  Data  Lc  key_fifo.o [1]
+pow                      0x800'f919   0x6c4  Code  Gb  pow64.o [3]
+powl                     0x800'f919   0x6c4  Code  Gb  pow64.o [3]
+prvIdleTask              0x800'a5a9    0x62  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                         0x800'c49d    0x78  Code  Lc  heap_4.o [1]
+prvTaskExitError         0x800'c5fd    0x1c  Code  Lc  port.o [1]
+prv_spi_flash_wait_write_end
+                         0x801'1a5f    0x5a  Code  Lc  bsp_w25q64.o [1]
+prv_spi_flash_write_page
+                         0x801'1ab9    0x84  Code  Lc  bsp_w25q64.o [1]
+pvPortMalloc             0x800'c2e1   0x150  Code  Gb  heap_4.o [1]
+pwmcHandle              0x2000'7204     0x4  Data  Gb  mc_tasks.o [1]
+pxCurrentTCB            0x2000'70f8     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x2000'70fc     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x2000'1a34     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x2000'7100     0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack    0x800'c5d5    0x28  Code  Gb  port.o [1]
+pxReadyTasksLists       0x2000'7058    0x8c  Data  Lc  tasks.o [1]
+reg_conv                0x2000'7a08    0x18  Data  Gb  regular_adc.o [1]
+reg_conv_ch             0x2000'7a22     0x1  Data  Gb  regular_adc.o [1]
+reg_handler             0x2000'7a20     0x2  Data  Gb  regular_adc.o [1]
+rgb_leds                0x2000'75c8    0x50  Data  Lc  color_led.o [1]
+roughcnt_100ms          0x2000'7ac2     0x2  Data  Gb  timeRoutine.o [1]
+roughcnt_10ms           0x2000'7ac0     0x2  Data  Gb  timeRoutine.o [1]
+roughcnt_1s             0x2000'7ac4     0x2  Data  Gb  timeRoutine.o [1]
+s_fwVer                  0x801'4ca4    0x20  Data  Gb  motorcontrol.o [1]
+s_gpio_list              0x800'620c    0x18  Data  Lc  key_fifo.o [1]
+s_tBtn                  0x2000'78f4    0x28  Data  Lc  key_fifo.o [1]
+s_tKey                  0x2000'791c    0x10  Data  Lc  key_fifo.o [1]
+safetyHandle            0x2000'735c     0x4  Data  Gb  main.o [1]
+scalbln                  0x801'1625          Code  Gb  ldexp.o [3]
+scalblnl                 0x801'1625          Code  Gb  ldexp.o [3]
+scalbn                   0x801'1625          Code  Gb  ldexp.o [3]
+scalbnl                  0x801'1625          Code  Gb  ldexp.o [3]
+sensor_alt              0x2000'7a6a     0x1  Data  Lc  sensor_if.o [1]
+sensor_error            0x2000'7a69     0x1  Data  Lc  sensor_if.o [1]
+sensors_control_init     0x800'4cb1     0xe  Code  Gb  sensor_if.o [1]
+sensors_control_polling
+                         0x800'4cc1   0x13c  Code  Gb  sensor_if.o [1]
+sensors_rx_cplt_handler
+                         0x800'4dfd    0x16  Code  Gb  sensor_if.o [1]
+set_rtc_time_default     0x800'8419    0x54  Code  Gb  rtc.o [1]
+sin                      0x801'03fd     0x4  Code  Gb  cos_sin64.o [3]
+sinl                     0x801'03fd     0x4  Code  Gb  cos_sin64.o [3]
+speed_fault_detection::spd_fault_cnt
+                        0x2000'0bab     0x1  Data  Lc  motor_control.o [1]
+sqrt                     0x800'b1c9          Code  Gb  sqrt.o [3]
+sqrtl                    0x800'b1c9          Code  Gb  sqrt.o [3]
+startMediumFrequencyTask
+                         0x800'9971    0x10  Code  Gb  mc_tasks.o [1]
+startTimers              0x800'bf59    0x70  Code  Wk  pwm_common.o [1]
+start_measurement        0x800'93a4     0x2  Data  Gb  sensor_flow.o [1]
+stopflag                0x2000'7af4     0x4  Data  Gb  main.o [1]
+sys                     0x2000'7570    0x58  Data  Gb  CPAP.o [1]
+task_FSHandle           0x2000'7364     0x4  Data  Gb  main.o [1]
+task_algorithmHandle    0x2000'7374     0x4  Data  Gb  main.o [1]
+task_commHandle         0x2000'736c     0x4  Data  Gb  main.o [1]
+task_cpuHandle          0x2000'7370     0x4  Data  Gb  main.o [1]
+task_modeHandle         0x2000'7360     0x4  Data  Gb  main.o [1]
+task_peripheralHandle   0x2000'7368     0x4  Data  Gb  main.o [1]
+tempBreathBaseline      0x2000'04fc     0x4  Data  Gb  FlowProcess.o [1]
+tempBreathTemplate      0x2000'041a     0x2  Data  Gb  DynamicTemplate.o [1]
+tempDiff                0x2000'04bc    0x10  Data  Gb  FlowProcess.o [1]
+tmr_100ms_flag          0x2000'7934     0x2  Data  Gb  timer.o [1]
+tmr_10ms_flag           0x2000'7932     0x2  Data  Gb  timer.o [1]
+tmr_1s_flag             0x2000'7936     0x2  Data  Gb  timer.o [1]
+tmr_5ms_flag            0x2000'7930     0x2  Data  Gb  timer.o [1]
+tmr_base_flag           0x2000'792e     0x2  Data  Gb  timer.o [1]
+tmr_routine             0x2000'7942     0x2  Data  Gb  timer.o [1]
+tmrcnt_100ms            0x2000'793e     0x2  Data  Gb  timer.o [1]
+tmrcnt_10ms             0x2000'793c     0x2  Data  Gb  timer.o [1]
+tmrcnt_1ms              0x2000'7938     0x2  Data  Gb  timer.o [1]
+tmrcnt_1s               0x2000'7940     0x2  Data  Gb  timer.o [1]
+tmrcnt_5ms              0x2000'793a     0x2  Data  Gb  timer.o [1]
+ucHeap                  0x2000'1a4c  0x3c00  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x2000'0bc8     0x1  Data  Lc  port.o [1]
+ui_FLDetectCD           0x2000'049c     0x4  Data  Gb  EventDetection.o [1]
+ulMaxPRIGROUPValue      0x2000'0bd0     0x4  Data  Lc  port.o [1]
+ulTaskSwitchedInTime    0x2000'7130     0x4  Data  Lc  tasks.o [1]
+user_regular_adc_init    0x800'9019    0x44  Code  Gb  regular_adc.o [1]
+user_regular_adc_measure_requirement
+                         0x800'905d    0x2a  Code  Gb  regular_adc.o [1]
+user_timer_tick_inc      0x800'431d     0xa  Code  Gb  main.o [1]
+uwTick                  0x2000'1870     0x4  Data  Gb  stm32g4xx_hal.o [1]
+uwTickFreq              0x2000'1878     0x4  Data  Gb  stm32g4xx_hal.o [1]
+uwTickPrio              0x2000'1874     0x4  Data  Gb  stm32g4xx_hal.o [1]
+uxCriticalNesting       0x2000'0bcc     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x2000'7108     0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x2000'7104     0x4  Data  Lc  tasks.o [1]
+uxListRemove             0x800'c5ad    0x26  Code  Gb  list.o [1]
+uxSchedulerSuspended    0x2000'712c     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x2000'7124     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x2000'7110     0x4  Data  Lc  tasks.o [1]
+vListInitialise          0x800'c519    0x1a  Code  Gb  list.o [1]
+vListInitialiseItem      0x800'c533     0x6  Code  Gb  list.o [1]
+vListInsert              0x800'c555    0x58  Code  Gb  list.o [1]
+vListInsertEnd           0x800'c539    0x1c  Code  Gb  list.o [1]
+vPortEnableVFP           0x800'f719          Code  Gb  portasm.o [1]
+vPortEnterCritical       0x800'c729    0x32  Code  Gb  port.o [1]
+vPortExitCritical        0x800'c75b    0x22  Code  Gb  port.o [1]
+vPortFree                0x800'c431    0x6c  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt
+                         0x800'f665    0x1a  Code  Gb  motorcontrol.o [1]
+vPortStartFirstTask      0x800'f6f9          Code  Gb  portasm.o [1]
+vTaskDelay               0x800'a0a7    0x9a  Code  Gb  tasks.o [1]
+vTaskStartScheduler      0x800'a141   0x1dc  Code  Gb  tasks.o [1]
+vTaskSuspendAll          0x800'a325     0xe  Code  Gb  tasks.o [1]
+vTaskSwitchContext       0x800'a52f    0x78  Code  Gb  tasks.o [1]
+vbat_conversion_cb       0x800'90b1    0x2e  Code  Lc  regular_adc.o [1]
+vbat_voltage            0x2000'186a     0x2  Data  Gb  regular_adc.o [1]
+wConfig                 0x2000'0bc4     0x4  Data  Gb  motorcontrol.o [1]
+waitForPolarizationEnd   0x801'04a7    0x4e  Code  Wk  pwm_common.o [1]
+xBlockAllocatedBit      0x2000'1a48     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x2000'7134    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000'7148    0x14  Data  Lc  tasks.o [1]
+xFreeBytesRemaining     0x2000'1a38     0x4  Data  Lc  heap_4.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x2000'1a3c     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x2000'7128     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2000'7120     0x4  Data  Lc  tasks.o [1]
+xNumberOfSuccessfulAllocations
+                        0x2000'1a40     0x4  Data  Lc  heap_4.o [1]
+xNumberOfSuccessfulFrees
+                        0x2000'1a44     0x4  Data  Lc  heap_4.o [1]
+xPendedTicks            0x2000'7118     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x2000'7030    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler      0x800'c619   0x110  Code  Gb  port.o [1]
+xSchedulerRunning       0x2000'7114     0x4  Data  Lc  tasks.o [1]
+xStart                  0x2000'1a2c     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x2000'70e4    0x14  Data  Lc  tasks.o [1]
+xTaskCreate              0x800'9ec9   0x1de  Code  Gb  tasks.o [1]
+xTaskIncrementTick       0x800'a421   0x10e  Code  Gb  tasks.o [1]
+xTaskResumeAll           0x800'a335    0xe2  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x2000'7044    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x2000'710c     0x4  Data  Lc  tasks.o [1]
+xYieldPending           0x2000'711c     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  82'754 bytes of readonly  code memory
+   4'006 bytes of readonly  data memory
+  35'583 bytes of readwrite data memory
+
+Errors: none
+Warnings: 2
