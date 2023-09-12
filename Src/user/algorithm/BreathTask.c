@@ -171,7 +171,7 @@ void ApneaDetectionV2(void)
   }
   */
   
-  isApnea = (ApneaDiff <= 40/10);
+  isApnea = (ApneaDiff <= 50/10);
 }
 
 // Snoring detection 30 Hz High Pass Filter

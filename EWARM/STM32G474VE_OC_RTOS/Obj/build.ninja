@@ -27,6 +27,7 @@ build DynamicTemplate.pbi : index DynamicTemplate.xcl
 build EventDetection.pbi : index EventDetection.xcl
 build FlowLimitation.pbi : index FlowLimitation.xcl
 build FlowProcess.pbi : index FlowProcess.xcl
+build FOTProcess.pbi : index FOTProcess.xcl
 build LeakManagement.pbi : index LeakManagement.xcl
 build PressureControl.pbi : index PressureControl.xcl
 build PressureTask.pbi : index PressureTask.xcl
@@ -147,18 +148,18 @@ build usbd_cdc.pbi : index usbd_cdc.xcl
 build usbd_core.pbi : index usbd_core.xcl
 build usbd_ctlreq.pbi : index usbd_ctlreq.xcl
 build usbd_ioreq.pbi : index usbd_ioreq.xcl
-build STM32G474VE_OC_RTOS_part0.pbi : link AutoMode.pbi BreathTask.pbi CPAP.pbi DynamicTemplate.pbi EventDetection.pbi FlowLimitation.pbi FlowProcess.pbi LeakManagement.pbi PressureControl.pbi PressureTask.pbi Swing.pbi
-build STM32G474VE_OC_RTOS_part1.pbi : link motor_control.pbi regular_adc.pbi bsp_w25q64.pbi color_led.pbi debug_io.pbi key_fifo.pbi led.pbi sensor_flow.pbi sensor_pressure.pbi timer.pbi rtc.pbi
-build STM32G474VE_OC_RTOS_part2.pbi : link sensor_if.pbi sort.pbi timeRoutine.pbi app_fatfs.pbi app_freertos.pbi main.pbi mc_api.pbi mc_config.pbi mc_interface.pbi mc_math.pbi mc_parameters.pbi
-build STM32G474VE_OC_RTOS_part3.pbi : link mc_tasks.pbi motor_control_protocol.pbi motorcontrol.pbi regular_conversion_manager.pbi stm32g4xx_hal_msp.pbi stm32g4xx_hal_timebase_tim.pbi stm32g4xx_it.pbi stm32g4xx_mc_it.pbi ui_task.pbi usb_device.pbi usbd_cdc_if.pbi
-build STM32G474VE_OC_RTOS_part4.pbi : link usbd_conf.pbi usbd_desc.pbi user_diskio.pbi user_interface.pbi system_stm32g4xx.pbi stm32g4xx_hal.pbi stm32g4xx_hal_adc.pbi stm32g4xx_hal_adc_ex.pbi stm32g4xx_hal_comp.pbi stm32g4xx_hal_cordic.pbi stm32g4xx_hal_cortex.pbi
-build STM32G474VE_OC_RTOS_part5.pbi : link stm32g4xx_hal_dma.pbi stm32g4xx_hal_dma_ex.pbi stm32g4xx_hal_exti.pbi stm32g4xx_hal_flash.pbi stm32g4xx_hal_flash_ex.pbi stm32g4xx_hal_flash_ramfunc.pbi stm32g4xx_hal_gpio.pbi stm32g4xx_hal_i2c.pbi stm32g4xx_hal_i2c_ex.pbi stm32g4xx_hal_opamp.pbi stm32g4xx_hal_opamp_ex.pbi
-build STM32G474VE_OC_RTOS_part6.pbi : link stm32g4xx_hal_pcd.pbi stm32g4xx_hal_pcd_ex.pbi stm32g4xx_hal_pwr.pbi stm32g4xx_hal_pwr_ex.pbi stm32g4xx_hal_qspi.pbi stm32g4xx_hal_rcc.pbi stm32g4xx_hal_rcc_ex.pbi stm32g4xx_hal_rtc.pbi stm32g4xx_hal_rtc_ex.pbi stm32g4xx_hal_tim.pbi stm32g4xx_hal_tim_ex.pbi
-build STM32G474VE_OC_RTOS_part7.pbi : link stm32g4xx_hal_uart.pbi stm32g4xx_hal_uart_ex.pbi stm32g4xx_ll_adc.pbi stm32g4xx_ll_dma.pbi stm32g4xx_ll_exti.pbi stm32g4xx_ll_gpio.pbi stm32g4xx_ll_ucpd.pbi stm32g4xx_ll_usb.pbi stm32g4xx_ll_utils.pbi ccsbcs.pbi diskio.pbi
-build STM32G474VE_OC_RTOS_part8.pbi : link ff.pbi ff_gen_drv.pbi syscall.pbi cmsis_os.pbi croutine.pbi event_groups.pbi heap_4.pbi list.pbi port.pbi queue.pbi stream_buffer.pbi
-build STM32G474VE_OC_RTOS_part9.pbi : link tasks.pbi timers.pbi bus_voltage_sensor.pbi circle_limitation.pbi digital_output.pbi frame_communication_protocol.pbi motor_power_measurement.pbi ntc_temperature_sensor.pbi open_loop.pbi pid_regulator.pbi pqd_motor_power_measurement.pbi
-build STM32G474VE_OC_RTOS_part10.pbi : link pwm_common.pbi pwm_curr_fdbk.pbi r3_2_g4xx_pwm_curr_fdbk.pbi r_divider_bus_voltage_sensor.pbi ramp_ext_mngr.pbi revup_ctrl.pbi speed_pos_fdbk.pbi speed_torq_ctrl.pbi state_machine.pbi sto_pll_speed_pos_fdbk.pbi ui_irq_handler.pbi
-build STM32G474VE_OC_RTOS_part11.pbi : link usart_frame_communication_protocol.pbi virtual_speed_sensor.pbi usbd_cdc.pbi usbd_core.pbi usbd_ctlreq.pbi usbd_ioreq.pbi
+build STM32G474VE_OC_RTOS_part0.pbi : link AutoMode.pbi BreathTask.pbi CPAP.pbi DynamicTemplate.pbi EventDetection.pbi FlowLimitation.pbi FlowProcess.pbi FOTProcess.pbi LeakManagement.pbi PressureControl.pbi PressureTask.pbi
+build STM32G474VE_OC_RTOS_part1.pbi : link Swing.pbi motor_control.pbi regular_adc.pbi bsp_w25q64.pbi color_led.pbi debug_io.pbi key_fifo.pbi led.pbi sensor_flow.pbi sensor_pressure.pbi timer.pbi
+build STM32G474VE_OC_RTOS_part2.pbi : link rtc.pbi sensor_if.pbi sort.pbi timeRoutine.pbi app_fatfs.pbi app_freertos.pbi main.pbi mc_api.pbi mc_config.pbi mc_interface.pbi mc_math.pbi
+build STM32G474VE_OC_RTOS_part3.pbi : link mc_parameters.pbi mc_tasks.pbi motor_control_protocol.pbi motorcontrol.pbi regular_conversion_manager.pbi stm32g4xx_hal_msp.pbi stm32g4xx_hal_timebase_tim.pbi stm32g4xx_it.pbi stm32g4xx_mc_it.pbi ui_task.pbi usb_device.pbi
+build STM32G474VE_OC_RTOS_part4.pbi : link usbd_cdc_if.pbi usbd_conf.pbi usbd_desc.pbi user_diskio.pbi user_interface.pbi system_stm32g4xx.pbi stm32g4xx_hal.pbi stm32g4xx_hal_adc.pbi stm32g4xx_hal_adc_ex.pbi stm32g4xx_hal_comp.pbi stm32g4xx_hal_cordic.pbi
+build STM32G474VE_OC_RTOS_part5.pbi : link stm32g4xx_hal_cortex.pbi stm32g4xx_hal_dma.pbi stm32g4xx_hal_dma_ex.pbi stm32g4xx_hal_exti.pbi stm32g4xx_hal_flash.pbi stm32g4xx_hal_flash_ex.pbi stm32g4xx_hal_flash_ramfunc.pbi stm32g4xx_hal_gpio.pbi stm32g4xx_hal_i2c.pbi stm32g4xx_hal_i2c_ex.pbi stm32g4xx_hal_opamp.pbi
+build STM32G474VE_OC_RTOS_part6.pbi : link stm32g4xx_hal_opamp_ex.pbi stm32g4xx_hal_pcd.pbi stm32g4xx_hal_pcd_ex.pbi stm32g4xx_hal_pwr.pbi stm32g4xx_hal_pwr_ex.pbi stm32g4xx_hal_qspi.pbi stm32g4xx_hal_rcc.pbi stm32g4xx_hal_rcc_ex.pbi stm32g4xx_hal_rtc.pbi stm32g4xx_hal_rtc_ex.pbi stm32g4xx_hal_tim.pbi
+build STM32G474VE_OC_RTOS_part7.pbi : link stm32g4xx_hal_tim_ex.pbi stm32g4xx_hal_uart.pbi stm32g4xx_hal_uart_ex.pbi stm32g4xx_ll_adc.pbi stm32g4xx_ll_dma.pbi stm32g4xx_ll_exti.pbi stm32g4xx_ll_gpio.pbi stm32g4xx_ll_ucpd.pbi stm32g4xx_ll_usb.pbi stm32g4xx_ll_utils.pbi ccsbcs.pbi
+build STM32G474VE_OC_RTOS_part8.pbi : link diskio.pbi ff.pbi ff_gen_drv.pbi syscall.pbi cmsis_os.pbi croutine.pbi event_groups.pbi heap_4.pbi list.pbi port.pbi queue.pbi
+build STM32G474VE_OC_RTOS_part9.pbi : link stream_buffer.pbi tasks.pbi timers.pbi bus_voltage_sensor.pbi circle_limitation.pbi digital_output.pbi frame_communication_protocol.pbi motor_power_measurement.pbi ntc_temperature_sensor.pbi open_loop.pbi pid_regulator.pbi
+build STM32G474VE_OC_RTOS_part10.pbi : link pqd_motor_power_measurement.pbi pwm_common.pbi pwm_curr_fdbk.pbi r3_2_g4xx_pwm_curr_fdbk.pbi r_divider_bus_voltage_sensor.pbi ramp_ext_mngr.pbi revup_ctrl.pbi speed_pos_fdbk.pbi speed_torq_ctrl.pbi state_machine.pbi sto_pll_speed_pos_fdbk.pbi
+build STM32G474VE_OC_RTOS_part11.pbi : link ui_irq_handler.pbi usart_frame_communication_protocol.pbi virtual_speed_sensor.pbi usbd_cdc.pbi usbd_core.pbi usbd_ctlreq.pbi usbd_ioreq.pbi
 build STM32G474VE_OC_RTOS.pbd : link STM32G474VE_OC_RTOS_part0.pbi STM32G474VE_OC_RTOS_part1.pbi STM32G474VE_OC_RTOS_part2.pbi STM32G474VE_OC_RTOS_part3.pbi STM32G474VE_OC_RTOS_part4.pbi STM32G474VE_OC_RTOS_part5.pbi STM32G474VE_OC_RTOS_part6.pbi STM32G474VE_OC_RTOS_part7.pbi STM32G474VE_OC_RTOS_part8.pbi STM32G474VE_OC_RTOS_part9.pbi STM32G474VE_OC_RTOS_part10.pbi STM32G474VE_OC_RTOS_part11.pbi
 build STM32G474VE_OC_RTOS.pbw : browsedata STM32G474VE_OC_RTOS.pbd
 

@@ -9,6 +9,7 @@
 #include "LeakManagement.h"
 #include "PressureTask.h"
 #include "parameter.h"
+#include "FotProcess.h"
 #include <math.h>
 
 /*
@@ -16,6 +17,7 @@
 #define M_PI 3.1415926535897932384626433
 #endif
 */
+extern int16_t curr_mmH2O;
 
 //extern int16_t curr_cmH2o;
 
@@ -91,6 +93,8 @@ void PressureTaskInit(struct Systems *system)
   AutoModeTaskInit(system->Config.MinP, system->Config.MaxP, 100);  
 }
 
+int phase_delay;
+//float fotp=0,fotq=0;
 float PressureTaskProcessOfTreatment(struct Systems *system)
 {
   //float FOTP = 0.0f;
@@ -178,20 +182,23 @@ float PressureTaskProcessOfTreatment(struct Systems *system)
 
         FOTP = 0.75 * sin(w) * 10; // 0.365
 
-        FOT_P[FOT_Counter-501] = system->SensorP;
+        FOT_P[FOT_Counter-501] = curr_mmH2O;//system->SensorP;
         FOT_Q[FOT_Counter-501] = PQ_Curve.FlowLPM_M1;
+        
+        //fotp = curr_mmH2O;
+        //fotq = PQ_Curve.FlowLPM_M1;
         
         if(FOT_Counter==900)
         {     
           //must enable: GetPhaseDelay() is definied in DataProcess.c
-          int phase_delay = 10;//GetPhaseDelay(FOT_Pressure, FOT_FLow, 400); // discuss later
+          phase_delay = GetPhaseDelay(FOT_P, FOT_Q, 400); // discuss later
           //PhaseDelay = phase_delay;
           // CSAEvent = (phase_delay >= 12); // 13;11
-          isApneaO = (phase_delay >= 12);
+          isApneaO = (phase_delay >= 14) ? 1 : 0;
           
-          FOT_Counter = 0;        
+          FOT_Counter = 0;      
         }
-      }  
+      }
     }
     else
     {
@@ -202,6 +209,8 @@ float PressureTaskProcessOfTreatment(struct Systems *system)
   {
     FOT_Counter = 0;
   }
+  
+  FOTP = 0;
   
   system->FinalP = system->TargetP + FOTP + system->PVAP;// + system->SwingP;;
   //system->FinalP = system->TargetP + system->LeakP + system->PVAP + system->SwingP + FOTP;

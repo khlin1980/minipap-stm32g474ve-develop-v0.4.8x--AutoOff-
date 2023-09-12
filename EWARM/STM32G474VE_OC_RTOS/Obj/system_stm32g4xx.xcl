@@ -1,95 +1,95 @@
-"C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Src\system_stm32g4xx.c"
+"C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Src\system_stm32g4xx.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\STM32G474VE_OC_RTOS\Obj\system_stm32g4xx.pbi.dep
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM\STM32G474VE_OC_RTOS\Obj\system_stm32g4xx.pbi.dep
 -o
 system_stm32g4xx.pbi
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Src
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Src
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Inc\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Inc\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Drivers/STM32G4xx_HAL_Driver/Inc\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Drivers/STM32G4xx_HAL_Driver/Inc\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Middlewares/Third_Party/FreeRTOS/Source/include\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Middlewares/Third_Party/FreeRTOS/Source/include\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../MCSDK_v5.4.8-Full/MotorControl/MCSDK/MCLib/Any/Inc\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../MCSDK_v5.4.8-Full/MotorControl/MCSDK/MCLib/Any/Inc\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../MCSDK_v5.4.8-Full/MotorControl/MCSDK/MCLib/G4xx/Inc\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../MCSDK_v5.4.8-Full/MotorControl/MCSDK/MCLib/G4xx/Inc\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../MCSDK_v5.4.8-Full/MotorControl/MCSDK/UILibrary/Inc\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../MCSDK_v5.4.8-Full/MotorControl/MCSDK/UILibrary/Inc\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Middlewares/ST/STM32_USB_Device_Library/Core/Inc\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Middlewares/ST/STM32_USB_Device_Library/Core/Inc\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../MCSDK_v5.4.8-Full/MotorControl/MCSDK/SystemDriveParams\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../MCSDK_v5.4.8-Full/MotorControl/MCSDK/SystemDriveParams\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Drivers/CMSIS/Device/ST/STM32G4xx/Include\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Drivers/CMSIS/Device/ST/STM32G4xx/Include\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Drivers/CMSIS/Include\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Drivers/CMSIS/Include\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\..\Src\user\driver\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM\..\Src\user\driver\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\..\Src\user\interface\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM\..\Src\user\interface\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\..\Src\user\application\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM\..\Src\user\application\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM/../Middlewares/Third_Party/FatFs/src\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM/../Middlewares/Third_Party/FatFs/src\
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\..\Src\user\algorithm\
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM\..\Src\user\algorithm\
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Inc
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Inc
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Drivers\STM32G4xx_HAL_Driver\Inc
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Drivers\STM32G4xx_HAL_Driver\Inc
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Middlewares\Third_Party\FreeRTOS\Source\include
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Middlewares\Third_Party\FreeRTOS\Source\include
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\MCSDK_v5.4.8-Full\MotorControl\MCSDK\MCLib\Any\Inc
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\MCSDK_v5.4.8-Full\MotorControl\MCSDK\MCLib\Any\Inc
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\MCSDK_v5.4.8-Full\MotorControl\MCSDK\MCLib\G4xx\Inc
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\MCSDK_v5.4.8-Full\MotorControl\MCSDK\MCLib\G4xx\Inc
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\MCSDK_v5.4.8-Full\MotorControl\MCSDK\UILibrary\Inc
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\MCSDK_v5.4.8-Full\MotorControl\MCSDK\UILibrary\Inc
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Middlewares\ST\STM32_USB_Device_Library\Core\Inc
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Middlewares\ST\STM32_USB_Device_Library\Core\Inc
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\MCSDK_v5.4.8-Full\MotorControl\MCSDK\SystemDriveParams
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\MCSDK_v5.4.8-Full\MotorControl\MCSDK\SystemDriveParams
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Drivers\CMSIS\Device\ST\STM32G4xx\Include
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Drivers\CMSIS\Device\ST\STM32G4xx\Include
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Drivers\CMSIS\Include
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Drivers\CMSIS\Include
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Src\user\driver
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Src\user\driver
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Src\user\interface
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Src\user\interface
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Src\user\application
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Src\user\application
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Middlewares\Third_Party\FatFs\src
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Middlewares\Third_Party\FatFs\src
 -I
-C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\Src\user\algorithm
+C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\Src\user\algorithm
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

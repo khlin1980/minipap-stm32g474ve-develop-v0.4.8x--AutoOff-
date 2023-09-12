@@ -58,6 +58,7 @@ void SetRPMByFansLaw(float SensorP, float TargetP, uint32_t CurrentRPM)
   //*RPM_Output = TargetRPM;
 
   //SetBlowerRPM(TargetRPM, 0);
+  //TargetRPM = 40000;
   motorctrl_set_motor_speed(TargetRPM, 10);
 }
 

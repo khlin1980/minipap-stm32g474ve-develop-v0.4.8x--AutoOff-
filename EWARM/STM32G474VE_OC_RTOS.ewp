@@ -1104,6 +1104,9 @@
                     <name>$PROJ_DIR$\..\Src\user\algorithm\FlowProcess.c</name>
                 </file>
                 <file>
+                    <name>$PROJ_DIR$\..\Src\user\algorithm\FOTProcess.c</name>
+                </file>
+                <file>
                     <name>$PROJ_DIR$\..\Src\user\algorithm\LeakManagement.c</name>
                 </file>
                 <file>

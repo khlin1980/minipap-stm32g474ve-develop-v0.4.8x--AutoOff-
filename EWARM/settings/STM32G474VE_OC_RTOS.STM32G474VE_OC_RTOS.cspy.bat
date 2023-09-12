@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\settings\STM32G474VE_OC_RTOS.STM32G474VE_OC_RTOS.general.xcl" --backend -f "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\settings\STM32G474VE_OC_RTOS.STM32G474VE_OC_RTOS.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM\settings\STM32G474VE_OC_RTOS.STM32G474VE_OC_RTOS.general.xcl" --backend -f "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM\settings\STM32G474VE_OC_RTOS.STM32G474VE_OC_RTOS.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\settings\STM32G474VE_OC_RTOS.STM32G474VE_OC_RTOS.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.8x (AutoOff)\EWARM\settings\STM32G474VE_OC_RTOS.STM32G474VE_OC_RTOS.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM\settings\STM32G474VE_OC_RTOS.STM32G474VE_OC_RTOS.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\kh.lin\Desktop\MiniPAP Code\MiniPAP Code (STM32G474)\Mockup V0.3\minipap-stm32g474ve-develop v0.4.9x (FOT)\EWARM\settings\STM32G474VE_OC_RTOS.STM32G474VE_OC_RTOS.driver.xcl" 
 
 @echo off 
 :end

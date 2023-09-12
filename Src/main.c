@@ -1438,7 +1438,7 @@ void TSK_Algorithm(void const * argument)
   
   osDelay(ms_to_tick(3000));  
   
-  CPAPSetConfig(1, 0, 60, 0, 200, 40, 120);  
+  CPAPSetConfig(0, 0, 60, 0, 200, 40, 120);  
   CPAPInit();
   
   for(;;)
